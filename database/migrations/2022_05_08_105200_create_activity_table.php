@@ -15,7 +15,10 @@ class CreateActivityTable extends Migration
     {
         Schema::create('activity', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('title');
+            $table->string('image');
+            $table->string('money_up');
+            $table->string('goal');
         });
     }
 
