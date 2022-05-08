@@ -57,7 +57,7 @@
 <div class="collapse navbar-collapse" id="navbar-menu">
 <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 <li><a href="/">Home</a></li>
-<li><a href="about-us">About Us</a></li>
+<li><a href="aboutus">About Us</a></li>
 <li><a href="activities">Activities</a></li>
 <li><a href="projects">Projects</a></li>
 <li><a href="gallery">Gallery</a></li>
