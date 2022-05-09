@@ -25,3 +25,12 @@ Route::view('projects', 'projects');
 Route::view('activities', 'activities');
 Route::view('sponsor-a-child', 'sponsor-a-child');
 
+
+
+Route::prefix('Admin')->group(function () {
+    Route::view('index','dashboard.index');
+    Route::view('login','dashboard.login');
+    Route::view('register','dashboard.register');
+    Route::view('control','dashboard.control');
+    Route::view('information','dashboard.information');
+});
