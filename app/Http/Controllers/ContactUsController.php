@@ -20,7 +20,5 @@ class ContactUsController extends Controller
      $contact->message = $request->input('message');
      $contact->save();
 
-     if($validate)
-     return Redirect ('contact')->withInput(Input::all());
-     }
+    }
 }
