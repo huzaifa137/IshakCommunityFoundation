@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactUsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,6 +26,7 @@ Route::view('projects', 'projects');
 Route::view('activities', 'activities');
 Route::view('sponsor-a-child', 'sponsor-a-child');
 
+Route::POST('contact',[ContactUsController::class,'store']);
 
 
 Route::prefix('Admin')->group(function () {

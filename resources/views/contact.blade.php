@@ -55,26 +55,43 @@ help@charityhope.com</p>
 </div>
 </div>
 </div>
+
+@if (count($errors->any))
+      <ul>
+        @foreach ($errors->all() as $error)
+              <li>{{$error}}</li>
+        @endforeach
+      </ul>
+@endif  
+
+
 <div class="clearfix"></div>
 <h2>IF YOU GOT ANY QUESTIONS<br>
 PLEASE DO NOT HESITATE TO SEND US A MESSAGE.</h2>
+<form action="contact" method="POST">
+@csrf
 <div class="con-form clearfix">
 <div class="col-md-4">
-<input type="text" name="name" value="" size="40" class="" id="name" aria-required="true" aria-invalid="false" placeholder="Your Name*">
+<input type="text" name="name"  size="40" value="{{old('name')}}" id="name" aria-required="true" aria-invalid="false" placeholder="Your Name*" required>
+<span style="color:red">@error('name') {{$message}} @enderror</span>
 </div>
 <div class="col-md-4">
-<input type="email" name="email" value="" size="40" class="" aria-required="true" aria-invalid="false" placeholder="Your Email*">
+<input type="email" name="email" size="100" value="{{old('email')}}" aria-required="true" aria-invalid="false" placeholder="Your Email*" required>
+<span style="color: red">@error('email') {{$message}} @enderror</span>
 </div>
 <div class="col-md-4">
-<input type="text" name="subject" value="" size="40" class="" id="subject" aria-invalid="false" placeholder="Subject">
+<input type="text" name="subject"  size="100" class="" id="subject" aria-invalid="false" placeholder="Subject" required>
+<span style="color:red"> @error('subject') {{$message}}@enderror </span>
 </div>
 <div class="col-md-12">
-<textarea name="message" cols="40" rows="5" class="" id="message" aria-invalid="false" placeholder="Message"></textarea>
+<textarea name="message" cols="100" rows="5" class="" id="message" aria-invalid="false" placeholder="Message" required></textarea>
+<span style="color:red"> @error('message') {{$message}}@enderror </span>
 </div>
 <div class="col-xs-12 submit-button">
 <input type="submit" value="send message" class="btn2" id="sub" style="border:none; margin: 20px 0 0 0">
 </div>
 </div>
+</form>
 </div>
 </div>
 </section>
