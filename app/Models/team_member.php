@@ -5,7 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Sponsor-a-child extends Model
+class team_member extends Model
 {
     use HasFactory;
+
+    protected $fillable =["name","role","img"];
+    protected $table="team_member";
+    public $timestamps="flase";
 }

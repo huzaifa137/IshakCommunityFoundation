@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\ActivitieController;
 use App\Http\Controllers\ContactUsController;
+use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\GalleryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,13 +29,21 @@ Route::view('projects', 'projects');
 Route::view('activities', 'activities');
 Route::view('sponsor-a-child', 'sponsor-a-child');
 
-Route::POST('contact',[ContactUsController::class,'store']);
-
-
 Route::prefix('Admin')->group(function () {
     Route::view('index','dashboard.index');
     Route::view('login','dashboard.login');
     Route::view('register','dashboard.register');
     Route::view('control','dashboard.control');
     Route::view('information','dashboard.information');
+
+    //Controllers and models
+
+    Route::POST('control',[ProjectController::class,'store']);
+    Route::POST('control',[GalleryController::class,'store']);
+    Route::POST('control',[ActivitieController::class,'store']);
 });
+
+Route::POST('contact',[ContactUsController::class,'store']);
+
+
+

@@ -20813,6 +20813,20 @@ div.tagsinput {
   display: flex;
   position: relative; }
 
+.colormaster{
+  color:red!important;
+}
+
+.card-title
+{
+  color:green!important;
+}
+
+input[type=text]
+{
+  color: yellow;
+}
+
 .main-panel {
   transition: width 0.25s ease, margin 0.25s ease;
   width: 100%;
@@ -20833,5 +20847,6 @@ div.tagsinput {
   width: 100%;
   -webkit-flex-grow: 1;
   flex-grow: 1; }
+
 
 /*# sourceMappingURL=maps/style.css.map */

@@ -1,7 +1,8 @@
 @extends('layouts.Adminlayout')
 @section('content')
         <!-- partial -->
-        <div class="main-panel">
+        <div class="colormaster">
+        <div class="main-panel text-light">
           <div class="content-wrapper">
             <div class="page-header">
               <h3 class="page-title"> Form elements </h3>
@@ -13,108 +14,104 @@
               </nav>
             </div>
             <div class="row">
-              <div class="col-md-12 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Horizontal Form</h4>
-                    <p class="card-description"> Horizontal form layout </p>
-                    <form class="forms-sample">
-                      <div class="form-group row">
-                        <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Email</label>
-                        <div class="col-sm-9">
-                          <input type="text" class="form-control" id="exampleInputUsername2" placeholder="Username">
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Email</label>
-                        <div class="col-sm-9">
-                          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label for="exampleInputMobile" class="col-sm-3 col-form-label">Mobile</label>
-                        <div class="col-sm-9">
-                          <input type="text" class="form-control" id="exampleInputMobile" placeholder="Mobile number">
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label for="exampleInputPassword2" class="col-sm-3 col-form-label">Password</label>
-                        <div class="col-sm-9">
-                          <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Re Password</label>
-                        <div class="col-sm-9">
-                          <input type="password" class="form-control" id="exampleInputConfirmPassword2" placeholder="Password">
-                        </div>
-                      </div>
-                      <div class="form-check form-check-flat form-check-primary">
-                        <label class="form-check-label">
-                          <input type="checkbox" class="form-check-input"> Remember me </label>
-                      </div>
-                      <button type="submit" class="btn btn-primary me-2">Submit</button>
-                      <button class="btn btn-dark">Cancel</button>
-                    </form>
-                  </div>
-                </div>
-              </div>
               <div class="col-12 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">Basic form elements</h4>
-                    <p class="card-description"> Basic form elements </p>
-                    <form class="forms-sample">
+                    <h4 class="card-title">Create a project</h4>
+                    <p class="card-description"> Enter project Details </p>
+                    <form action="control" method="POST" enctype="multipart/form-data">
+                      @csrf
+                      <form class="forms-sample">
                       <div class="form-group">
-                        <label for="exampleInputName1">Name</label>
-                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                        <label for="exampleInputName1">Title</label>
+                        <input type="text" class="form-control" name="title" placeholder="Name" required>
                       </div>
                       <div class="form-group">
-                        <label for="exampleInputEmail3">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleInputPassword4">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword4" placeholder="Password">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleSelectGender">Gender</label>
-                        <select class="form-control" id="exampleSelectGender">
-                          <option>Male</option>
-                          <option>Female</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <label>File upload</label>
-                        <input type="file" name="img[]" class="file-upload-default">
-                        <div class="input-group col-xs-12">
-                          <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
-                          <span class="input-group-append">
-                            <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
-                          </span>
+                        <div class="mb-3">
+                          <label for="formFile" class="form-label">Upload Project Image</label>
+                          <input class="form-control" type="file" id="formFile" name="imgfile">
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="exampleInputCity1">City</label>
-                        <input type="text" class="form-control" id="exampleInputCity1" placeholder="Location">
+                        <label for="exampleInputName1">Simple description</label>
+                        <input type="text" class="form-control" name="simple_desc" maxlength="100" placeholder="simple_desc" required>
                       </div>
+                      
                       <div class="form-group">
-                        <label for="exampleTextarea1">Textarea</label>
-                        <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
+                        <label for="exampleTextarea1">Detailed description</label>
+                        <textarea class="form-control" id="exampleTextarea1" rows="4" name="detailed_desc" required></textarea>
                       </div>
                       <button type="submit" class="btn btn-primary me-2">Submit</button>
-                      <button class="btn btn-dark">Cancel</button>
                     </form>
                   </div>
                 </div>
               </div>
              
+              <div class="row">
+                <div class="col-12 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Upload image in gallery</h4>
+                      <p class="card-description"> Enter image details </p>
+                      <form action="control" method="POST" enctype="multipart/form-data">
+                        @csrf
+                        <form class="forms-sample">
+                        <div class="form-group">
+                          <label for="exampleInputName1">Image Caption Name</label>
+                          <input type="text" class="form-control" name="caption" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                          <div class="mb-3">
+                            <label for="formFile" class="form-label">Upload Project Image</label>
+                            <input class="form-control" type="file" id="formFile" name="imgfile">
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary me-2">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+               
+                <div class="row">
+                  <div class="col-12 grid-margin stretch-card">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">Create an Activity</h4>
+                        <p class="card-description"> Enter activity Details </p>
+                        <form action="control" method="POST" enctype="multipart/form-data">
+                          @csrf
+                          <form class="forms-sample">
+                          <div class="form-group">
+                            <label for="exampleInputName1">Title</label>
+                            <input type="text" class="form-control" name="title" placeholder="Name" required>
+                          </div>
+                          <div class="form-group">
+                            <div class="mb-3">
+                              <label for="formFile" class="form-label">Upload Project Image</label>
+                              <input class="form-control" type="file" id="formFile" name="image">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputName1">goal</label>
+                            <input type="number" class="form-control" name="goal" placeholder="goal to be raised" required>
+                          </div>
+
+                          <div class="form-group">
+                            <label for="exampleInputName1">Rasised Amount</label>
+                            <input type="number" class="form-control" name="money_up" placeholder="Amount Raised" required>
+                          </div>
+                          <button type="submit" class="btn btn-primary me-2">Submit</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
            <div class="col-12 grid-margin">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">Horizontal Two column</h4>
+                    <h4 class="card-title">SPONSER A CHILD</h4>
                     <form class="form-sample">
-                      <p class="card-description"> Personal info </p>
+                      <p class="card-description"> Child info </p>
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group row">
@@ -149,7 +146,7 @@
                           <div class="form-group row">
                             <label class="col-sm-3 col-form-label">Date of Birth</label>
                             <div class="col-sm-9">
-                              <input class="form-control" placeholder="dd/mm/yyyy" />
+                              <input type="date" class="form-control" placeholder="dd/mm/yyyy" />
                             </div>
                           </div>
                         </div>
@@ -157,72 +154,19 @@
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group row">
-                            <label class="col-sm-3 col-form-label">Category</label>
+                            <label class="col-sm-3 col-form-label">Support Catagory</label>
                             <div class="col-sm-9">
                               <select class="form-control">
-                                <option>Category1</option>
-                                <option>Category2</option>
-                                <option>Category3</option>
-                                <option>Category4</option>
+                                <option>Education support</option>
+                                <option>Shelter support</option>
+                                <option>Food support</option>
+                                <option>Health support</option>
                               </select>
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-6">
-                          <div class="form-group row">
-                            <label class="col-sm-3 col-form-label">Membership</label>
-                            <div class="col-sm-4">
-                              <div class="form-check">
-                                <label class="form-check-label">
-                                  <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios1" value="" checked> Free </label>
-                              </div>
-                            </div>
-                            <div class="col-sm-5">
-                              <div class="form-check">
-                                <label class="form-check-label">
-                                  <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios2" value="option2"> Professional </label>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <p class="card-description"> Address </p>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="form-group row">
-                            <label class="col-sm-3 col-form-label">Address 1</label>
-                            <div class="col-sm-9">
-                              <input type="text" class="form-control" />
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-group row">
-                            <label class="col-sm-3 col-form-label">State</label>
-                            <div class="col-sm-9">
-                              <input type="text" class="form-control" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="form-group row">
-                            <label class="col-sm-3 col-form-label">Address 2</label>
-                            <div class="col-sm-9">
-                              <input type="text" class="form-control" />
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-group row">
-                            <label class="col-sm-3 col-form-label">Postcode</label>
-                            <div class="col-sm-9">
-                              <input type="text" class="form-control" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                        
+                    
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group row">
@@ -232,20 +176,18 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-6">
-                          <div class="form-group row">
-                            <label class="col-sm-3 col-form-label">Country</label>
-                            <div class="col-sm-9">
-                              <select class="form-control">
-                                <option>America</option>
-                                <option>Italy</option>
-                                <option>Russia</option>
-                                <option>Britain</option>
-                              </select>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-3 col-form-label">Country</label>
+                              <div class="col-sm-9">
+                                <input type="text" class="form-control" />
+                              </div>
                             </div>
                           </div>
-                        </div>
                       </div>
+
+                      <button type="submit text-danger">Submit</button>
                     </form>
                   </div>
                 </div>
@@ -253,5 +195,6 @@
               
             </div>
           </div>
+        </div>
           <!-- content-wrapper ends -->
        @endsection
