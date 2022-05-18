@@ -2,8 +2,8 @@
 @section('content')
         <!-- partial -->
         <div class="colormaster">
-        <div class="main-panel text-light">
-          <div class="content-wrapper">
+        <div class="main-panel ">
+          <div class="content-wrapper text-light">
             <div class="page-header">
               <h3 class="page-title"> Form elements </h3>
               <nav aria-label="breadcrumb">
@@ -19,7 +19,7 @@
                   <div class="card-body">
                     <h4 class="card-title">Create a project</h4>
                     <p class="card-description"> Enter project Details </p>
-                    <form action="control" method="POST" enctype="multipart/form-data">
+                    <form action="project" method="POST" enctype="multipart/form-data">
                       @csrf
                       <form class="forms-sample">
                       <div class="form-group">
@@ -53,7 +53,7 @@
                     <div class="card-body">
                       <h4 class="card-title">Upload image in gallery</h4>
                       <p class="card-description"> Enter image details </p>
-                      <form action="control" method="POST" enctype="multipart/form-data">
+                      <form action="gallery" method="POST" enctype="multipart/form-data">
                         @csrf
                         <form class="forms-sample">
                         <div class="form-group">
@@ -78,7 +78,7 @@
                       <div class="card-body">
                         <h4 class="card-title">Create an Activity</h4>
                         <p class="card-description"> Enter activity Details </p>
-                        <form action="control" method="POST" enctype="multipart/form-data">
+                        <form action="activity" method="POST" enctype="multipart/form-data">
                           @csrf
                           <form class="forms-sample">
                           <div class="form-group">
@@ -110,6 +110,8 @@
                 <div class="card">
                   <div class="card-body">
                     <h4 class="card-title">SPONSER A CHILD</h4>
+                    <form action="sponsor" method="POST" enctype="multipart/form-data">
+                      @csrf 
                     <form class="form-sample">
                       <p class="card-description"> Child info </p>
                       <div class="row">
@@ -117,7 +119,7 @@
                           <div class="form-group row">
                             <label class="col-sm-3 col-form-label">First Name</label>
                             <div class="col-sm-9">
-                              <input type="text" class="form-control" />
+                              <input type="text" class="form-control" name="firstname" required/>
                             </div>
                           </div>
                         </div>
@@ -125,28 +127,58 @@
                           <div class="form-group row">
                             <label class="col-sm-3 col-form-label">Last Name</label>
                             <div class="col-sm-9">
-                              <input type="text" class="form-control" />
+                              <input type="text" class="form-control"  name="lastname" required/>
                             </div>
                           </div>
                         </div>
                       </div>
+
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group row">
-                            <label class="col-sm-3 col-form-label">Gender</label>
+                            <label class="col-sm-3 col-form-label">Age</label>
                             <div class="col-sm-9">
-                              <select class="form-control">
-                                <option>Male</option>
-                                <option>Female</option>
-                              </select>
+                              <input type="number" class="form-control" name="age" required/>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-3 col-form-label">City</label>
+                              <div class="col-sm-9">
+                                <input type="text" class="form-control" name="city" required/>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                              <label class="col-sm-3 col-form-label">Country</label>
+                              <div class="col-sm-9">
+                                <input type="text" class="form-control" name="country" required/>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Child pic</label>
+                            <div class="col-sm-9">
+                              <input type="file" class="form-control" name="image" required/>
                             </div>
                           </div>
                         </div>
+
+                      <div class="row">
                         <div class="col-md-6">
                           <div class="form-group row">
                             <label class="col-sm-3 col-form-label">Date of Birth</label>
                             <div class="col-sm-9">
-                              <input type="date" class="form-control" placeholder="dd/mm/yyyy" />
+                              <input type="date" class="form-control" name="date" placeholder="dd/mm/yyyy" required/>
                             </div>
                           </div>
                         </div>
@@ -156,38 +188,16 @@
                           <div class="form-group row">
                             <label class="col-sm-3 col-form-label">Support Catagory</label>
                             <div class="col-sm-9">
-                              <select class="form-control">
-                                <option>Education support</option>
-                                <option>Shelter support</option>
-                                <option>Food support</option>
-                                <option>Health support</option>
+                              <select class="form-control" name="supportcatagory" required>
+                                <option value="Educaation support">Education support</option>
+                                <option value="shelter support">Shelter support</option>
+                                <option value="Food support">Food support</option>
+                                <option value="Heatlh support">Health support</option>
                               </select>
                             </div>
                           </div>
                         </div>
-                        
-                    
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="form-group row">
-                            <label class="col-sm-3 col-form-label">City</label>
-                            <div class="col-sm-9">
-                              <input type="text" class="form-control" />
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-md-6">
-                            <div class="form-group row">
-                              <label class="col-sm-3 col-form-label">Country</label>
-                              <div class="col-sm-9">
-                                <input type="text" class="form-control" />
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-
-                      <button type="submit text-danger">Submit</button>
+                      <button type="submit" class="btn btn-primary me-2">Submit</button>
                     </form>
                   </div>
                 </div>

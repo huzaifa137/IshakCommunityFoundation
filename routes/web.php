@@ -4,6 +4,7 @@ use App\Http\Controllers\ActivitieController;
 use App\Http\Controllers\ContactUsController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\SponsorAChildController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -38,9 +39,15 @@ Route::prefix('Admin')->group(function () {
 
     //Controllers and models
 
-    Route::POST('control',[ProjectController::class,'store']);
-    Route::POST('control',[GalleryController::class,'store']);
-    Route::POST('control',[ActivitieController::class,'store']);
+    Route::POST('project',[ProjectController::class,'store']);
+    Route::POST('gallery',[GalleryController::class,'store']);
+    Route::POST('activity',[ActivitieController::class,'store']);
+    Route::POST('sponsor',[SponsorAChildController::class,'store']);
+    Route::get('information',[GalleryController::class,'show']);
+
+
+    Route::get('edit/{id}',[GalleryController::class,'delete']);
+
 });
 
 Route::POST('contact',[ContactUsController::class,'store']);

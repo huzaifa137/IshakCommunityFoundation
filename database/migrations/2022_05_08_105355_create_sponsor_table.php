@@ -18,7 +18,7 @@ class CreateSponsorTable extends Migration
             $table->string('image');
             $table->integer('age');
             $table->string('title');
-            $table->date('birthday');
+            $table->dateTime('birthday');
             $table->string('location');
         });
     }

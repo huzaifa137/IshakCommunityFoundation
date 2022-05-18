@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateGalleryTable extends Migration
+class AddFirstnameToSponsorTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateGalleryTable extends Migration
      */
     public function up()
     {
-        Schema::create('gallery', function (Blueprint $table) {
-            $table->id();
-            $table->string('image');
-            $table->string('caption');
+        Schema::table('sponsor', function (Blueprint $table) {
+            $table->string('firstname')->before('image');
+            $table->string('lastname')->after('firstname');
+            $table->string('supportcatogory');
         });
     }
 
@@ -27,6 +27,8 @@ class CreateGalleryTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('gallery');
+        Schema::table('sponsor', function (Blueprint $table) {
+            //
+        });
     }
 }

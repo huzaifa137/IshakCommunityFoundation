@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\sponsor_a_child;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class SponsorAChildController extends Controller
@@ -9,23 +10,32 @@ class SponsorAChildController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'title'=>'required',
-            'imgfile'=>'required|mimes:jpg,jpeg,bmp,png',
-            'simple_desc'=>'required',
-            'detailed_desc'=>'required'
+            'firstname'=>'required|string',
+            'lastname'=>'required|string',
+            'age'=>'required',
+            'supportcatagory'=>'required',
+            'date'=>'required',
+            'country'=>'required',
+            'image'=>'required|mimes:jpeg,jpg,bmp,png'
          ]);
 
-        $request->imgfile->store('project_pics','public');
-        
-        $save = new sponsor_a_child([
-        "title" => $request->input('title'),
-        "image" => $request->imgfile->hashName(),
-        "simple_desc" => $request->input('simple_desc'),
-        "detailed_desc" => $request->input('detailed_desc')
-        ]);
+         if($request->file('image'))
+         {
+             $file=$request->file('image');
+             $filename=date('YmdHi').$file->getClientOriginalName();
+             $file->move(public_path('public/sponsor_a_child'),$filename);
+             $save = new sponsor_a_child([
+                "firstname" => $request->input('firstname'),
+                "lastname" => $request->input('lastname'),
+                "image" => $filename,
+                "age"=> $request->input('age'),
+                "supportcatogory" => $request->input('supportcatagory'),
+                "birthday"=>Carbon::parse($request->date),
+                "location"=>$request->input('country')
+                ]);
+         }
 
         $save->save();
-    
         return redirect()->back();
     }
 }

@@ -9,7 +9,7 @@ class sponsor_a_child extends Model
 {
     use HasFactory;
 
-    protected $fillable =['image','age','title','birthday','location'];
+    protected $fillable =['image','age','firstname','birthday','location','lastname','supportcatogory'];
     protected $table ='sponsor';
     public $timestamps =false;
 }

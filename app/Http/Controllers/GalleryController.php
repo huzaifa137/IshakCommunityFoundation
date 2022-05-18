@@ -3,25 +3,48 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\gallery;
+use App\Models\project;
+use App\Models\activitie;
+use App\Models\sponsor_a_child;
 use Illuminate\Support\Facades\Redirect;
 
 class GalleryController extends Controller
 {
     public function store(Request $request)
     {
+        $data = new gallery();
         $request->validate([
             'caption'=>'required',
             'imgfile'=>'required|mimes:jpg,jpeg,png,bmp'
         ]);
 
-        $request->imgfile->store('gallery_pics','public');
+        if($request->file('imgfile'))
+        {
+            $file=$request->file('imgfile');
+            $filename=date('YmdHi').$file->getClientOriginalName();
+            $file->move(public_path('public/galley_pics'),$filename);
+            $data['image']=$filename;
+        }
 
-        $imgsave = new gallery([
-            "caption"=>$request->input('caption'),
-            "image"=>$request->imgfile->hashName()
-        ]);
-
-        $imgsave->save();
+        $data->caption=$request->input('caption');
+        $data->save();
         return Redirect()->back();
+    }
+
+
+    public function show()
+    {
+        $results = gallery::all();
+        $data =  project::all();
+        $info = activitie::all();
+        $metadata = sponsor_a_child::all();
+
+        return view('dashboard.information')->with('results',$results)->with('data',$data)
+        ->with('info',$info)->with('metadata',$metadata);
+    }
+
+    public function delete()
+    {
+        return "Welcome to the delete home page";
     }
 }

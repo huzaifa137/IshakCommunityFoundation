@@ -20813,19 +20813,9 @@ div.tagsinput {
   display: flex;
   position: relative; }
 
-.colormaster{
-  color:red!important;
-}
 
-.card-title
-{
-  color:green!important;
-}
 
-input[type=text]
-{
-  color: yellow;
-}
+
 
 .main-panel {
   transition: width 0.25s ease, margin 0.25s ease;
@@ -20841,6 +20831,26 @@ input[type=text]
       margin-left: 0;
       width: 100%; } }
 
+      .card-title
+{
+  color:green!important;
+}
+
+
+.form-control
+{
+  color:white!important;
+}
+
+.card-body
+{
+  color:red!important;
+}
+
+.card-description
+{
+  color:yellow!important;
+}
 .content-wrapper {
   background: #000000;
   padding: 1.875rem 1.75rem;

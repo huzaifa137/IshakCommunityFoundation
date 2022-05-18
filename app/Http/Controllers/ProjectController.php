@@ -8,6 +8,8 @@ class ProjectController extends Controller
 {
     public function store(Request $request)
     {
+
+        $save = new project();
         $request->validate([
             'title'=>'required',
             'imgfile'=>'required|mimes:jpg,jpeg,bmp,png',
@@ -15,17 +17,18 @@ class ProjectController extends Controller
             'detailed_desc'=>'required'
          ]);
 
-        $request->imgfile->store('project_pics','public');
+        if($request->file('imgfile')){
+            $file= $request->file('imgfile');
+            $filename= date('YmdHi').$file->getClientOriginalName();
+            $file-> move(public_path('public/Image'), $filename);
+            $save['image']= $filename;
+        }
         
-        $save = new project([
-        "title" => $request->input('title'),
-        "image" => $request->imgfile->hashName(),
-        "simple_desc" => $request->input('simple_desc'),
-        "detailed_desc" => $request->input('detailed_desc')
-        ]);
+            $save->title=$request->input('title');
+            $save->simple_desc=$request->input('simple_desc');
+            $save->detailed_desc=$request->input('detailed_desc');
+            $save->save();
 
-        $save->save();
-    
         return redirect()->back();
     }
 }
