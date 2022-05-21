@@ -43,8 +43,38 @@ class GalleryController extends Controller
         ->with('info',$info)->with('metadata',$metadata);
     }
 
-    public function delete()
+    public function delete($id)
     {
-        return "Welcome to the delete home page";
+        $info = gallery::find($id);
+        $info->delete();
+        return redirect()->back();
+    }
+
+    public function display($id)
+    {
+        $info = gallery::find($id);
+        return view('dashboard.updates.galleryupdate')->with('info',$info);
+    }
+    public function update(Request $request)
+    {
+        $data =  gallery::find($request->id);
+
+        $request->validate([
+            'caption'=>'required',
+            'imgfile'=>'required|mimes:jpg,jpeg,png,bmp'
+        ]);
+
+        if($request->file('imgfile'))
+        {
+            $file=$request->file('imgfile');
+            $filename=date('YmdHi').$file->getClientOriginalName();
+            $file->move(public_path('public/galley_pics'),$filename);
+            $data['image']=$filename;
+        }
+
+        $data->caption=$request->input('caption');
+        $data->save();
+        
+        return redirect('Admin/information');
     }
 }

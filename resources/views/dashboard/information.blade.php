@@ -17,6 +17,8 @@
                             <th>Image</th>
                             <th>Simple description</th>
                             <th>Detailed escription</th>
+                            <th>Delete</th>
+                            <th>Edit</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -24,9 +26,11 @@
                           <tr>
                             <td>{{$item->id}}</td>
                             <td>{{$item->title}}</td>
-                           <td>  <img src="{{ url('public/image/'.$item->image) }}"></td>
+                           <td>  <img src="{{ url('public/Image/'.$item->image) }}"></td>
                             <td>{{$item->simple_desc}}</td>
                             <td>{{$item->detailed_desc}}</td>
+                            <td><a href="{{'delete/project/'.$item->id}}" class="btn btn-danger">Delete</a></td>
+                            <td><a href="{{'edit/'.$item->id}}" class="btn btn-primary">Edit</a></td>
                           </tr>
                           @endforeach
                         </tbody>
@@ -51,6 +55,8 @@
                             <th>id</th>
                             <th>Image</th>
                             <th>Caption</th>
+                            <th>Delete</th>
+                            <th>Edit</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -59,6 +65,8 @@
                             <td>{{$item->id}}</td>
                            <td>  <img src="{{ url('public/galley_pics/'.$item->image) }}"></td>
                             <td>{{$item->caption}}</td>
+                            <td><a href="{{'delete/gallery/'.$item->id}}" class="btn btn-danger">Delete</a></td>
+                            <td><a href="{{'update/'.$item->id}}}" class="btn btn-primary">Edit</a></td>
                           </tr>
                           @endforeach
                         </tbody>
@@ -84,6 +92,8 @@
                                 <th>Image</th>
                                 <th>money_up</th>
                                 <th>goal</th>
+                                <th>Delete<th>
+                                <th>Edit</th>
                               </tr>
                             </thead>
                             <tbody>
@@ -94,6 +104,8 @@
                                 <td><img src="{{url('public/activity_pics/'. $item->image)}}" alt=""></td>
                                 <td>{{$item->goal}}</td>
                                 <td>{{$item->money_up}}</td>
+                                <td><a class="btn btn-danger" href="{{'delete/activity/'.$item->id}}">Delete</a></td>
+                                <td><a href="{{'change/'.$item->id}}" class="btn btn-primary">Edit</a></td>
                               </tr>
                               @endforeach
                             </tbody>
@@ -123,6 +135,7 @@
                             <th>location</th>
                             <th>supportcatagory</th> 
                             <th>Delete</th>
+                            <th>Edit</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -136,7 +149,8 @@
                             <td>{{$item->birthday}}</td>
                             <td>{{$item->location}}</td>
                             <td>{{$item->supportcatogory}}</td>
-                            <td><a href="{{'edit/'. $item->id}}" class="btn btn-danger" >Delete</a></td>
+                            <td><a href="{{'delete/sponsor/'. $item->id}}" class="btn btn-danger" >Delete</a></td>
+                            <td><a href="{{'modify/'.$item->id}}" class="btn btn-primary">Edit</a></td>
                           </tr>
                           @endforeach
                         </tbody>
