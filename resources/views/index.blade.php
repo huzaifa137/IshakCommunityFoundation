@@ -51,11 +51,15 @@
 <section id="about-sec">
 <div class="container">
 <div class="row text-center">
-<h1>ABOUT CHARITY HOPE</h1>
+<h1>About Ishak Community Organisation</h1>
 <hr>
-<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
+<h5>We are charitable non-profit organization</h5>
+<p>Bringing a smile on the face of every child and human in the world is our passion, we have done this through providing educational services to the orphans, we aim at providing healthcare services to the children, elderly and un abled people such as pregnant mothers. We also provide basic needs like clothes, books, water, food etc. to the poor, this has brought a smile to people in the community.</p>
+<p>Ishak community foundation was founded by Dr ISIKO ISAAC in 2020 though was fully registered as a community-based organization in 2021. This was in response to the suffering of children in the communities of Jinja district of Eastern Uganda. Where ISIKO ISAAC grew up and studies from. Many children were malnourished with no access to medical services, many families were hungry, many school-aged children were out of school, and many youths were unemployed.</p>
+<p>Dr.ISIKO ISAAC was touched by the kind of suffering the children in his community pass through daily and he  decided to join hands with few of community volunteers to help the poorest and the most vulnerable of them. This is how Ishak community foundation was started.
+    <br/> The organization started operation in 1 district in Eastern Uganda i.e. Jinja district but has since then expanded to 2 more districts.
+    </p>
+    <p>Currently, all the support for our children is got from membership subscription fee and community volunteers. We welcome all kinds of donations and grants from individuals and organizations willing to change the lives of the hopeless children within the community. We are also open to any partnership with any organization such humanitarian, child advocacy and any other non-profit organizations.</p>
 <div class="text-center">
 <a href="donate" class="btn1">donate now</a>
 <a href="aboutus" class="btn2">Read More</a>

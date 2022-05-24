@@ -43,9 +43,9 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group row">
-                  <label class="col-sm-3 col-form-label">Country</label>
+                  <label class="col-sm-3 col-form-label">City</label>
                   <div class="col-sm-9">
-                    <input type="text" class="form-control" name="country" value="{{$data->location}}" required/>
+                    <input type="text" class="form-control" name="city" value="{{$data->location}}" required/>
                   </div>
                 </div>
               </div>
@@ -64,13 +64,25 @@
           <div class="row">
             <div class="col-md-6">
               <div class="form-group row">
-                <label class="col-sm-3 col-form-label">Date of Birth</label>
+                <label class="col-sm-3 col-form-label">School name</label>
                 <div class="col-sm-9">
-                  <input type="date" class="form-control" name="date" placeholder="dd/mm/yyyy" value="{{$data->birthday}}" required/>
+                  <input type="schoolname" class="form-control" name="schoolname" placeholder="school name" value="{{$data->schoolname}}" required/>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-sm-3 col-form-label">Grade</label>
+                <div class="col-sm-9">
+                  <input type="number" class="form-control" name="grade" value="{{$data->grade}}" required/>
+                </div>
+              </div>
+            </div>
+        </div>
+
           <div class="row">
             <div class="col-md-6">
               <div class="form-group row">

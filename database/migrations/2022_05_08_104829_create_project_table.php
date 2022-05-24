@@ -17,8 +17,8 @@ class CreateProjectTable extends Migration
             $table->id();
             $table->string('title');
             $table->string('image');
-            $table->string('simple_desc');
-            $table->string('detailed_desc');
+            $table->longText('simple_desc',255);
+            $table->longText('detailed_desc',255);
             $table->timestamps();
         });
     }

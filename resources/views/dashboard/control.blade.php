@@ -24,7 +24,7 @@
                       <form class="forms-sample">
                       <div class="form-group">
                         <label for="exampleInputName1">Title</label>
-                        <input type="text" class="form-control" name="title" placeholder="Name" required>
+                        <input type="text" class="form-control" name="title" max="400" maxlength="4000" placeholder="Name" required>
                       </div>
                       <div class="form-group">
                         <div class="mb-3">
@@ -32,11 +32,12 @@
                           <input class="form-control" type="file" id="formFile" name="imgfile">
                         </div>
                       </div>
+              
                       <div class="form-group">
-                        <label for="exampleInputName1">Simple description</label>
-                        <input type="text" class="form-control" name="simple_desc" maxlength="100" placeholder="simple_desc" required>
+                        <label for="exampleTextarea1">Simple description</label>
+                        <textarea class="form-control" id="exampleTextarea1" rows="4" name="simple_desc" required></textarea>
                       </div>
-                      
+
                       <div class="form-group">
                         <label for="exampleTextarea1">Detailed description</label>
                         <textarea class="form-control" id="exampleTextarea1" rows="4" name="detailed_desc" required></textarea>
@@ -152,17 +153,7 @@
                               </div>
                             </div>
                           </div>
-                        <div class="row">
-                          <div class="col-md-6">
-                            <div class="form-group row">
-                              <label class="col-sm-3 col-form-label">Country</label>
-                              <div class="col-sm-9">
-                                <input type="text" class="form-control" name="country" required/>
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-
+                    
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group row">
@@ -176,9 +167,20 @@
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group row">
-                            <label class="col-sm-3 col-form-label">Date of Birth</label>
+                            <label class="col-sm-3 col-form-label">School name</label>
                             <div class="col-sm-9">
-                              <input type="date" class="form-control" name="date" placeholder="dd/mm/yyyy" required/>
+                              <input type="text" class="form-control" name="schoolname"  required/>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Grade</label>
+                            <div class="col-sm-9">
+                              <input type="number" class="form-control" name="grade"  required/>
                             </div>
                           </div>
                         </div>

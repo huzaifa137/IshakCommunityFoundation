@@ -23,13 +23,15 @@ use Illuminate\Support\Facades\Route;
 
 //Website routes
 Route::view('/', 'index');
-Route::view('temp', 'temp');
+// Route::view('temp', 'temp');
 Route::view('donate', 'donate');
 Route::view('sponsor', 'sponsor');
 Route::view('aboutus', 'aboutus');
 Route::view('gallery', 'gallery');
 Route::view('contact', 'contact');
-Route::view('projects', 'projects');
+// Route::view('projects', 'projects');
+
+Route::get('projects',[ProjectController::class,'projects']);
 Route::view('activities', 'activities');
 Route::view('sponsor-a-child', 'sponsor-a-child');
 
@@ -74,6 +76,6 @@ Route::POST('contact',[ContactUsController::class,'store']);
 Auth::routes();
 
 Route::get('/register',[RegisterController::class,'index']);
-
+Route::get('flush',[logoutContoller::class,'logoutuser']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

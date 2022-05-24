@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 use App\Models\sponsor_a_child;
-use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class SponsorAChildController extends Controller
@@ -14,9 +13,10 @@ class SponsorAChildController extends Controller
             'lastname'=>'required|string',
             'age'=>'required',
             'supportcatagory'=>'required',
-            'date'=>'required',
-            'country'=>'required',
-            'image'=>'required|mimes:jpeg,jpg,bmp,png'
+            'city'=>'required',
+            'image'=>'required|mimes:jpeg,jpg,bmp,png',
+            'schoolname'=>'required',
+            'grade'=>'required|integer'
          ]);
 
          if($request->file('image'))
@@ -30,8 +30,9 @@ class SponsorAChildController extends Controller
                 "image" => $filename,
                 "age"=> $request->input('age'),
                 "supportcatogory" => $request->input('supportcatagory'),
-                "birthday"=>Carbon::parse($request->date),
-                "location"=>$request->input('country')
+                "location"=>$request->input('city'),
+                "schoolname"=>$request->input('schoolname'),
+                "grade"=>$request->input('grade')
                 ]);
          }
 
@@ -61,9 +62,10 @@ class SponsorAChildController extends Controller
             'lastname'=>'required|string',
             'age'=>'required',
             'supportcatagory'=>'required',
-            'date'=>'required',
-            'country'=>'required',
-            'image'=>'required|mimes:jpeg,jpg,bmp,png'
+            'city'=>'required',
+            'image'=>'required|mimes:jpeg,jpg,bmp,png',
+            'schoolname'=>'required',
+            'grade'=>'required|integer'
          ]);
 
          if($request->file('image'))
@@ -71,17 +73,15 @@ class SponsorAChildController extends Controller
              $file=$request->file('image');
              $filename=date('YmdHi').$file->getClientOriginalName();
              $file->move(public_path('public/sponsor_a_child'),$filename);
-              
              $save['firstname'] = $request->input('firstname');
              $save['lastname'] = $request->input('lastname');
              $save['image'] = $filename;
              $save['age'] =$request->input('age');
              $save['supportcatogory'] =$request->input('supportcatagory');
-             $save['birthday']=Carbon::parse($request->date);
-             $save['location']=$request->input('country');
-
+             $save['schoolname']=$request->input('schoolname');
+             $save['grade']=$request->input('grade');
+             $save['location']=$request->input('city');
          }
-
         $save->save();
         return redirect('Admin/information');
 

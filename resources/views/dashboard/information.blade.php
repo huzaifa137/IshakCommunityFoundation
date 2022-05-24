@@ -131,8 +131,9 @@
                             <th>lastname</th>
                             <th>image</th>
                             <th>age</th>
-                            <th>birthday</th>
                             <th>location</th>
+                            <th>School name</th>
+                            <td>Grade</td>
                             <th>supportcatagory</th> 
                             <th>Delete</th>
                             <th>Edit</th>
@@ -146,8 +147,9 @@
                             <td>{{$item->lastname}}</td>
                             <td> <img src="{{url('public/sponsor_a_child/'.$item->image)}}"></td>
                             <td>{{$item->age}}</td>
-                            <td>{{$item->birthday}}</td>
                             <td>{{$item->location}}</td>
+                            <td>{{$item->schoolname}}</td>
+                            <td>{{$item->grade}}</td>
                             <td>{{$item->supportcatogory}}</td>
                             <td><a href="{{'delete/sponsor/'. $item->id}}" class="btn btn-danger" >Delete</a></td>
                             <td><a href="{{'modify/'.$item->id}}" class="btn btn-primary">Edit</a></td>

@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\gallery;
 use Illuminate\Http\Request;
 use App\Models\project;
 
@@ -15,7 +14,7 @@ class ProjectController extends Controller
         $request->validate([
             'title'=>'required|string',
             'imgfile'=>'required|mimes:jpg,jpeg,bmp,png',
-            'simple_desc'=>'required',
+            'simple_desc'=>'required|max:500',
             'detailed_desc'=>'required'
          ]);
 
@@ -65,5 +64,12 @@ class ProjectController extends Controller
         $data->save();
 
         return redirect('Admin/information')->with('success','Data has been updated successfully');
+    }
+
+
+    public function projects()
+    {
+        $data = project::all();
+        return view('projects')->with('data',$data);
     }
 }

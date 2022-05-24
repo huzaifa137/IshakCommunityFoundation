@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.apps')
 @section('content')
 
 <section id="inner-banner">
@@ -17,95 +17,19 @@
 <div class="container">
 <div class="row text-center" style="margin-top:-30px;">
 
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src="/assets/images/test1.jpg"></div>
-<div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate" title="" >Donate Now</a>
-</div>
+    @foreach ($data as $item)
+    <div class="col-sm-6 col-md-4 clearfix top-off">
+      <div class="grid-image"><img src="{{ url('public/Image/'.$item->image) }}"></div>
+      <div class="post-content">
+      <h3>{{$item->simple_desc}}</h3>
+      <hr>
+      <p>{{$item->detailed_desc}}</p>
+      <a href="donate">Donate Now</a>
+      </div>
+      </div>        
+    @endforeach
 
-</div>
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src="/assets/images/test1.jpg"></div>
-<div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate" title="" >Donate Now</a>
-</div>
-</div>
 
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src="/assets/images/test1.jpg"></div>
-<div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate" title="" >Donate Now</a>
-</div>
-</div>
-
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src="/assets/images/test1.jpg"></div>
-<div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate" title="" >Donate Now</a>
-</div>
-</div>
-
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src="/assets/images/test1.jpg"></div>
-<div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate" title="" >Donate Now</a>
-</div>
-</div>
-
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src="/assets/images/test1.jpg"></div>
-<div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate" title="" >Donate Now</a>
-</div>
-</div>
-
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src="/assets/images/test1.jpg"></div>
-<div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate" title="" >Donate Now</a>
-</div>
-</div>
-
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src="/assets/images/test1.jpg"></div>
-<div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate" title="" >Donate Now</a>
-</div>
-</div>
-
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src="/assets/images/test1.jpg"></div>
-<div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate" title="" >Donate Now</a>
-</div>
-</div>
 
 </div>
 </div>
