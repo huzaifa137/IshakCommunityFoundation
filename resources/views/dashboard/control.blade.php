@@ -16,7 +16,7 @@
             <div class="row">
               <div class="col-12 grid-margin stretch-card">
                 <div class="card">
-                  <div class="card-body">
+                  <div class="card-body card-body1">
                     <h4 class="card-title">Create a project</h4>
                     <p class="card-description"> Enter project Details </p>
                     <form action="project" method="POST" enctype="multipart/form-data">
@@ -50,7 +50,7 @@
               <div class="row">
                 <div class="col-12 grid-margin stretch-card">
                   <div class="card">
-                    <div class="card-body">
+                    <div class="card-body card-body1">
                       <h4 class="card-title">Upload image in gallery</h4>
                       <p class="card-description"> Enter image details </p>
                       <form action="gallery" method="POST" enctype="multipart/form-data">
@@ -75,7 +75,7 @@
                 <div class="row">
                   <div class="col-12 grid-margin stretch-card">
                     <div class="card">
-                      <div class="card-body">
+                      <div class="card-body card-body1">
                         <h4 class="card-title">Create an Activity</h4>
                         <p class="card-description"> Enter activity Details </p>
                         <form action="activity" method="POST" enctype="multipart/form-data">
@@ -108,7 +108,7 @@
 
            <div class="col-12 grid-margin">
                 <div class="card">
-                  <div class="card-body">
+                  <div class="card-body card-body1">
                     <h4 class="card-title">SPONSER A CHILD</h4>
                     <form action="sponsor" method="POST" enctype="multipart/form-data">
                       @csrf 

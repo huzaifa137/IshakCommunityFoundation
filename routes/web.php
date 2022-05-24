@@ -5,6 +5,9 @@ use App\Http\Controllers\ContactUsController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\SponsorAChildController;
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\logoutContoller;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,12 +34,14 @@ Route::view('activities', 'activities');
 Route::view('sponsor-a-child', 'sponsor-a-child');
 
     //Admin routes
-Route::prefix('Admin')->group(function () {
-    Route::view('index','dashboard.index');
+Route::group(['prefix'=>'Admin','middleware'=>'auth'],function () {
+
     Route::view('login','dashboard.login');
-    Route::view('register','dashboard.register');
+    Route::view('index','dashboard.index');
     Route::view('control','dashboard.control');
     Route::view('information','dashboard.information')->name('home');
+    Route::view('register',[RegisterController::class,'index'])->name('register');
+    Route::get('flush',[logoutContoller::class,'logoutuser']);
 
     //Controllers and models (CRUD OPERTAIONS)
 
@@ -63,7 +68,12 @@ Route::prefix('Admin')->group(function () {
     Route::POST('modify/sponsormodify',[SponsorAChildController::class,'update']);   
 });
 
+
 Route::POST('contact',[ContactUsController::class,'store']);
 
+Auth::routes();
 
+Route::get('/register',[RegisterController::class,'index']);
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
