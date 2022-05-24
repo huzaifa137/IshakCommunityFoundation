@@ -29,8 +29,6 @@ Route::view('sponsor', 'sponsor');
 Route::view('aboutus', 'aboutus');
 Route::view('gallery', 'gallery');
 Route::view('contact', 'contact');
-// Route::view('projects', 'projects');
-
 Route::get('projects',[ProjectController::class,'projects']);
 Route::view('activities', 'activities');
 Route::view('sponsor-a-child', 'sponsor-a-child');
