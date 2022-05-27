@@ -16,66 +16,23 @@
 <div class="container">
 <div class="row text-left">
 
+    @foreach ($data as $item)
+        
 <div class="act-box clearfix">
 <div class="col-md-6">
-<div class="image"><img src="/assets/images/act.jpg" /></div>
+<div class="image"><img src="{{url('public/activity_pics/'.$item->image)}}"></div>
 </div>
 <div class="col-md-6">
 <div class="act-pad">
-<h4>Sponsor a child today</h4>
-<p>Lorem ipsum dolor sit amet, consectet ur adipisicing. Odit qui minima praese ntium obcaecati minima praesent  Odit qui minima praese ntium obcaecati minima Odit qui minima praese ntium obcaecati minima</p>
-<div class="price">Raised: $1890 <span class="goal">Goal: $2500</span></div>
+<h4>{{$item->title}}</h4>
+<p>{{$item->details}}</p>
+<div class="price"><span class="goal" style="color: red">Goal: ${{$item->goal}}</span></div>
 <a href="donate" class="btn1">donate now</a>
 <div class="clearfix"></div>
 </div>
 </div>
 </div>
-
-<div class="act-box clearfix">
-<div class="col-md-6 col-md-push-6">
-<div class="image"><img src="/assets/images/act.jpg" /></div>
-</div>
-<div class="col-md-6 col-md-pull-6">
-<div class="act-pad">
-<h4>Sponsor a child today</h4>
-<p>Lorem ipsum dolor sit amet, consectet ur adipisicing. Odit qui minima praese ntium obcaecati minima praesent  Odit qui minima praese ntium obcaecati minima Odit qui minima praese ntium obcaecati minima</p>
-<div class="price">Raised: $1890 <span class="goal">Goal: $2500</span></div>
-<a href="donate" class="btn1">donate now</a>
-<div class="clearfix"></div>
-</div>
-</div>
-</div>
-
-<div class="act-box clearfix">
-<div class="col-md-6">
-<div class="image"><img src="/assets/images/act.jpg" /></div>
-</div>
-<div class="col-md-6">
-<div class="act-pad">
-<h4>Sponsor a child today</h4>
-<p>Lorem ipsum dolor sit amet, consectet ur adipisicing. Odit qui minima praese ntium obcaecati minima praesent  Odit qui minima praese ntium obcaecati minima Odit qui minima praese ntium obcaecati minima</p>
-<div class="price">Raised: $1890 <span class="goal">Goal: $2500</span></div>
-<a href="donate" class="btn1">donate now</a>
-<div class="clearfix"></div>
-</div>
-</div>
-</div>
-
-<div class="act-box clearfix">
-<div class="col-md-6 col-md-push-6">
-<div class="image"><img src="/assets/images/act.jpg" /></div>
-</div>
-<div class="col-md-6 col-md-pull-6">
-<div class="act-pad">
-<h4>Sponsor a child today</h4>
-<p>Lorem ipsum dolor sit amet, consectet ur adipisicing. Odit qui minima praese ntium obcaecati minima praesent  Odit qui minima praese ntium obcaecati minima Odit qui minima praese ntium obcaecati minima</p>
-<div class="price">Raised: $1890 <span class="goal">Goal: $2500</span></div>
-<a href="donate" class="btn1">donate now</a>
-<div class="clearfix"></div>
-</div>
-</div>
-</div>
-
+@endforeach
 </div>
 </div>
 </section>

@@ -11,5 +11,5 @@ class activitie extends Model
 
     protected $table = 'activity';
     public $timestamps = false;
-    protected $fillable =['title','image','money_up','goal'];
+    protected $fillable =['title','image','money_up','goal','activity'];
 }

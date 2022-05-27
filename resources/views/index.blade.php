@@ -14,25 +14,28 @@
             <!-- Item 1 -->
             <div class="item active slide1">
                         <h2 data-animation="animated bounceInDown"><span style="border-radius: 40px;">Give a little change a lot</span></h2>
-                        <h3 data-animation="animated bounceInDown">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.!</h3>
+                        <h3 data-animation="animated bounceInDown" style="color: blue">
+                            Hunger is a problem for school-going kids from vulnerable families and it hurts their progress in school.
+                            So, we plan on providing them with a daily meal ranging from breakfast, lunch and this makes their life in school easier and better
+                            </h3>
                         <h4 data-animation="animated bounceInUp"><a href="aboutus">READ MORE</a></h4>             
              </div> 
             <!-- Item 2 -->
             <div class="item slide2">
                         <h2 data-animation="animated bounceInDown"><span style="border-radius: 40px;">More charity More better life</span></h2>
-                        <h3 data-animation="animated bounceInDown">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.!</h3>
+                        <h3 data-animation="animated bounceInDown" style="color:blue">We help poor families and children access medical care. This helps to reduce many preventable deaths in rural communities because poor families often suffer from easily preventable and treatable diseases. </h3>
                         <h4 data-animation="animated bounceInUp"><a href="aboutus">READ MORE</a></h4>             
              </div>
             <!-- Item 3 -->
             <div class="item slide3">
-                        <h2 data-animation="animated bounceInDown"><span style="border-radius: 40px;">Raise fund Warm heart</span></h2>
-                        <h3 data-animation="animated bounceInDown">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.!</h3>
+                        <h2 data-animation="animated bounceInDown"><span style="border-radius: 40px;">support the impoverished</span></h2>
+                        <h3 data-animation="animated bounceInDown" style="color: blue">We help pregnant women, nursing mothers, and vulnerable children get good nutrition and our nutrition programs focus on poor families and children. Malnutrition leads to stunted growth, wasting, or being overweight, in children which in turn damages a child’s learning and cognition. Malnutrition accounts for almost half of the deaths of children below 5 years.</h3>
                         <h4 data-animation="animated bounceInUp"><a href="aboutus">READ MORE</a></h4>             
              </div>
             <!-- Item 4 -->
             <div class="item slide4">
-                        <h2 data-animation="animated bounceInDown"><span style="border-radius: 40px;">Raise your funds for a cause</span></h2>
-                        <h3 data-animation="animated bounceInDown">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.!</h3>
+                        <h2 data-animation="animated bounceInDown"><span style="border-radius: 40px;">Raise Up for the needy</span></h2>
+                        <h3 data-animation="animated bounceInDown" style="color: blue">Buying food is not an option for poor households: they do not have an income. They are illiterate, uninformed, and unskilled. So, they cannot find decent jobs and employment to earn an income.Help them out by donating to us.</h3>
                         <h4 data-animation="animated bounceInUp"><a href="aboutus">READ MORE</a></h4>             
              </div>
             <!-- End Item 4 -->
@@ -68,46 +71,51 @@
 </div>
 </section>
 
+
+
+
 <section id="activities-sec">
 <div class="container">
 <div class="row text-center">
 <h1>WHAT WE DO?</h1>
 <hr>
-<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+<h5>To change Lives through providence of medical care to the vulnerable people in the community and also help orphaned and vulnerable children in spheres like education, child advocacy, providence of children’s needs and Empowering the Youths Towards goals of self-sustainability and Livelihood so as to sow for a better future.</h5>
 <div class="text-left"> 
 <div class="col-md-4 clearfix top-off">
 <div class="grid-content-left"><i class="fa fa-heart"></i></div>
-<div class="grid-content-wrapper"><h4>Charity for Education</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis dignissim.</p>
+<div class="grid-content-wrapper"><h4>Charity for Education</h4><p>Education is the key to transforming the lives of poor children and adolescents. Through it, they can get bright futures with decent work, better health, and a good income. </p>
 <a href="activities" title="" >Read More</a>
 </div>
 </div>
 <div class="col-md-4 clearfix top-off">
 <div class="grid-content-left"><i class="fa fa-cutlery"></i></div>
-<div class="grid-content-wrapper"><h4>Feed for Hungry Child</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis dignissim.</p>
+<div class="grid-content-wrapper"><h4>Feed for Hungry Child</h4><p>Hunger is a problem for school-going kids from vulnerable families and it hurts their progress in school.
+    So, we plan on providing them with a daily meal ranging from breakfast, lunch and this makes their life in school easier and better.
+    </p>
 <a href="activities" title="" >Read More</a>
 </div>
 </div>
 <div class="col-md-4 clearfix top-off">
 <div class="grid-content-left"><i class="fa fa-home"></i></div>
-<div class="grid-content-wrapper"><h4>Home for Homeless</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis dignissim.</p>
+<div class="grid-content-wrapper"><h4>Home for Homeless</h4><p>We have a plan of constructing four bed room houses containing the two rooms for the suffering male child, two rooms for females, and sparing room for the old. This would enable us supervise our chosen people in the community well. </p>
 <a href="activities" title="" >Read More</a>
 </div>
 </div>
 <div class="col-md-4 clearfix top-off">
 <div class="grid-content-left"><i class="fa fa-tint"></i></div>
-<div class="grid-content-wrapper"><h4>Bringing Clean Water</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis dignissim.</p>
+<div class="grid-content-wrapper"><h4>Bringing Clean Water</h4><p>We aim at providing communities in need with sustainable solutions to their water problems. Such solutions include providing rainwater harvesting systems, installing water pumps, rehabilitating damaged water source infrastructure and construction of boreholes .</p>
 <a href="activities" title="" >Read More</a>
 </div>
 </div>
 <div class="col-md-4 clearfix top-off">
 <div class="grid-content-left"><i class="fa fa-thumbs-up"></i></div>
-<div class="grid-content-wrapper"><h4>Help Little Hands</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis dignissim.</p>
+<div class="grid-content-wrapper"><h4>Help Little Hands</h4><p>We also plan of supporting the families of all children supported by the organization with some household items such as mosquito nets, toothpaste, and soap. This puts them in a better position to take their children to school and provide a conducive environment for children when they come back from school.</p>
 <a href="activities" title="" >Read More</a>
 </div>
 </div>
 <div class="col-md-4 clearfix top-off">
 <div class="grid-content-left"><i class="fa fa-money"></i></div>
-<div class="grid-content-wrapper"><h4>Donate for Children</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis dignissim.</p>
+<div class="grid-content-wrapper"><h4>Donate for Children</h4><p>We hope to increase on the number of children supported by Ishak community organization but we always limited by the funding. We provide scholastic materials such as school uniforms, shoes, school bags, books, pens, pencils, sanitary pads, etc. to all the children supported by the organization.</p>
 <a href="activities" title="" >Read More</a>
 </div>
 </div>
@@ -121,7 +129,7 @@
 <div class="row text-center">
 <h1>How can you help?</h1>
 <hr>
-<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+<h5>Help us transform the society by attaining the goals of better health, happy childhood and self-sustainability.</h5>
 <div class="text-left"> 
 <div class="col-md-6 clearfix top-off">
 <video width="400" controls>
@@ -134,7 +142,7 @@
 <img src="/assets/images/g1.png" class="attachment-full size-full" alt="g1">																							</div>
 <div class="media-text">
 <h5>BECOME A VOLUNTEER</h5>
-<p>Give us a brief description of the service that you are promoting.</p>
+<p>Becoming a volunteer by joining the Organisation membership</p>
 </div>
 </div>
 <div class="media">
@@ -142,7 +150,7 @@
 <img src="/assets/images/g2.png" class="attachment-full size-full" alt="g1">																							</div>
 <div class="media-text">
 <h5>MAKE A GIFT</h5>
-<p>Give us a brief description of the service that you are promoting.</p>
+<p>Donate a gift the different projects and activties which are on going</p>
 </div>
 </div>
 <div class="media">
@@ -150,7 +158,7 @@
 <img src="/assets/images/g1.png" class="attachment-full size-full" alt="g1">																							</div>
 <div class="media-text">
 <h5>GIVE A SCHOLASHIP</h5>
-<p>Give us a brief description of the service that you are promoting.</p>
+<p>Education is a basic need , we're in need of scholarship for the children were catering for.</p>
 </div>
 </div>
 </div>

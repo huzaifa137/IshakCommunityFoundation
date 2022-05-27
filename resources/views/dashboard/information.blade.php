@@ -90,6 +90,7 @@
                                 <th>id</th>
                                 <th>Title</th>
                                 <th>Image</th>
+                                <th>Details</th>
                                 <th>money_up</th>
                                 <th>goal</th>
                                 <th>Delete<th>
@@ -102,6 +103,7 @@
                                 <td>{{$item->id}}</td>
                                 <td>{{$item->title}}</td>
                                 <td><img src="{{url('public/activity_pics/'. $item->image)}}" alt=""></td>
+                                <td>{{$item->details}}</td>
                                 <td>{{$item->goal}}</td>
                                 <td>{{$item->money_up}}</td>
                                 <td><a class="btn btn-danger" href="{{'delete/activity/'.$item->id}}">Delete</a></td>

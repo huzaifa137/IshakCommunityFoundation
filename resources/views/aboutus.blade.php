@@ -16,7 +16,7 @@
 <section id="about-sec">
 <div class="container">
 <div class="row text-center">
-<h1>ABOUT CHARITY HOPE</h1>
+<h1>ABOUT ISHAK COMMUNITY ORGANISATION</h1>
 <hr>
 
 <div class="act-box clearfix">
@@ -25,22 +25,25 @@
   </div>
   <div class="col-md-6">
   <div class="act-pad">
-  <h4>Sponsor a child today</h4>
-  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-     Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form,
-     accompanied by English versions from the 1914 translation by H. Rackham.Lorem ipsum dolor sit amet, consectet ur adipisicing. Odit qui minima praese ntium obcaecati minima praesent  Odit qui minima praese ntium obcaecati minima Odit qui minima praese ntium obcaecati minima</p>
-  <div class="price">Raised: $1890 <span class="goal">Goal: $2500</span></div>
+  <h4>MOTTO</h4>
+  <span style="color: red">“Sowing Seeds for Benevolence”</span>
+  <h4>CORE VALUES</h4>
+  <span style="color:red"> Transparency, Accountability, Solidarity and team work”</span>
+  <h4>MISSION</h4>
+  <span style="color:red">To change Lives through providence of medical care to the vulnerable people in the community and also help orphaned and vulnerable children in spheres like education, child advocacy, providence of children’s needs and Empowering the Youths Towards goals of self-sustainability and Livelihood so as to sow for a better future.</span>
+  <h4>VISION</h4>
+  <span style="color:red">To transform the society to goals of better health, happy childhood and self-sustainability.</span>
+  <p>Ishak community organization is a fully registered community-based organization currently operating in eastern Uganda majorly jinja district and the nearby districts of Iganga,Namutumba and Kamuli .
+    We offer education support, medical care, housing, health education, feeding to disadvantaged children in the society such as the orphans, street children, abandoned children and children from extremely poor backgrounds far. The organization so far has more than 10 children who have been taken back to school by the little contributions from the team members and a few volunteers.
+    we ensure good health and good sanitation in the community by providing health education, organizing health camps with in communities, education the girl child about menstrual health and hygiene and providing sanitary towels. We educate children in schools about the transmission and prevention of sexually transmitted diseases such as HIV/AIDS, fighting teenage pregnancies and early marriages and reduction on the rate of school dropout among the children.
+    We also aim at improving on every one’s welfare by proving food, offering nutritional education and offering food security education among the community members on the different ways to improve on food production within the communities and combat hunger which is the cause of most of the African health problems such a malnutrition.
+    Widows and old are catered for in basic needs for a living and many have benefited 
+    </p>
   <a href="donate" class="btn1">donate now</a>
   <div class="clearfix"></div>
   </div>
   </div>
   </div>
-  <br> <br>
-<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
-<div class="text-center">
 </div>
 </div>
 </div>
@@ -51,14 +54,14 @@
 <div class="row text-center">
 <h1>WAYS TO HELP</h1>
 <hr>
-<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+<h5>Support and further our development by helping in the following ways</h5>
 <div class="text-left"> 
 <div class="col-md-6 clearfix top-off">
 <div class="icon_circle"><i class="fa fa-heartbeat">&nbsp;</i></div>
 <div class="help-text">
 <h4>Donate</h4>
 <div class="line line-50"></div>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>The organisation has got several accounts through which donations can reach to us, these donations are the major key factors for handling and implementing our goals and mission.</p>
 </div>
 </div>
 <div class="col-md-6 clearfix top-off">
@@ -66,7 +69,7 @@
 <div class="help-text">
 <h4>Participate</h4>
 <div class="line line-50"></div>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Several activities are always being carried out occassionally on monthly basis,these don include visiting the families of the needy and providing support to them.Participate in these activities.</p>
 </div>
 </div>
 <div class="col-md-6 clearfix top-off">
@@ -74,7 +77,7 @@
 <div class="help-text">
 <h4>Fundraise</h4>
 <div class="line line-50"></div>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Fundarising being one of the major ways to raise the income and support the weakened and orphans,join and support us on these Fundarisings.</p>
 </div>
 </div>
 <div class="col-md-6 clearfix top-off">
@@ -82,7 +85,7 @@
 <div class="help-text">
 <h4>Contribute</h4>
 <div class="line line-50"></div>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>were open to all kinds of contributions and help which may be rendered to us, from donations, scholarships,facilities and many more.</p>
 </div>
 </div>
 </div>
@@ -95,7 +98,7 @@
 <div class="row text-center">
 <h1>MEET OUR TEAM</h1>
 <hr>
-<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+<h5>The organisation is made of the board of trustees and is sub-divided into several divisions for transparent flow and flourishing of the work were doing.</h5>
 <div class="member col-xs-6 col-md-3">
 <div class="inner">
 <div class="avatar-inner"><img src="/assets/images/team1.jpg"></div>

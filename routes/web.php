@@ -30,7 +30,8 @@ Route::view('aboutus', 'aboutus');
 Route::view('gallery', 'gallery');
 Route::view('contact', 'contact');
 Route::get('projects',[ProjectController::class,'projects']);
-Route::view('activities', 'activities');
+// Route::view('activities', 'activities');
+Route::get('activities',[ActivitieController::class,'displayinformation']);
 Route::view('sponsor-a-child', 'sponsor-a-child');
 
     //Admin routes

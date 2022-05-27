@@ -87,6 +87,10 @@
                             <input type="text" class="form-control" name="title" placeholder="Name" required>
                           </div>
                           <div class="form-group">
+                            <label for="exampleTextarea1">Detailed description</label>
+                            <textarea class="form-control" id="exampleTextarea1" rows="4" name="detail" required></textarea>
+                          </div>
+                          <div class="form-group">
                             <div class="mb-3">
                               <label for="formFile" class="form-label">Upload Project Image</label>
                               <input class="form-control" type="file" id="formFile" name="image">

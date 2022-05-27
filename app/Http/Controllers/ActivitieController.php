@@ -24,6 +24,7 @@ class ActivitieController extends Controller
            $save['title']=$request->input('title');
            $save['money_up']=$request->input('money_up');
            $save['goal']=$request->input('goal');
+           $save['details']=$request->input('detail');
            $save->save();
        }
 
@@ -61,11 +62,20 @@ class ActivitieController extends Controller
            $save['image']=$filename;
            $save['title']=$request->input('title');
            $save['money_up']=$request->input('money_up');
+           $save['details']=$request->input('detail');
            $save['goal']=$request->input('goal');
            $save->save();
        }
 
         return Redirect('Admin/information');
+
+    }
+
+    public function displayinformation()
+    {
+        $data = activitie::all();
+        
+        return view('activities')->with('data',$data);
 
     }
 }
