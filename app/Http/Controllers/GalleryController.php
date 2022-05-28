@@ -77,4 +77,11 @@ class GalleryController extends Controller
         
         return redirect('Admin/information');
     }
+
+    public function displayinformation()
+    {
+        $data = gallery::all();
+        
+        return view('gallery')->with('data',$data);
+    }
 }

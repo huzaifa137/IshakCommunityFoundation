@@ -211,62 +211,62 @@
 <div class="row text-center">
 <h1>OUR GALLERY</h1>
 <hr>
-<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+<h5>A collection of the projects, activities as well as the different on going and running works from our gallery.</h5>
 <ul class="clearfix">
 
 <li>
-<a href="/assets/images/gallery1.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/assets/images/gallery1.jpg">
+<a href="/public/galley_pics/20220527104173.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/galley_pics/20220527104173.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div></a>
 </li>
 <li>
-<a href="/assets/images/gallery2.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/assets/images/gallery2.jpg">
+<a href="/public/galley_pics/20220527181410.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/galley_pics/20220527181410.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>
 </li>
 
 <li>
-<a href="/assets/images/gallery3.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/assets/images/gallery3.jpg">
+<a href="/public/galley_pics/20220527182059.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/galley_pics/20220527182059.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>
 </li>
 
 <li>
-<a href="/assets/images/gallery4.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/assets/images/gallery4.jpg">
+<a href="/public/galley_pics/20220527195862.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/galley_pics/20220527195862.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>
 </li>
 <li>
-<a href="/assets/images/gallery5.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/assets/images/gallery5.jpg">
+<a href="/public/galley_pics/20220527182480.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/galley_pics/20220527182480.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>
 </li>
 <li>
-<a href="/assets/images/gallery6.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/assets/images/gallery6.jpg">
+<a href="/public/galley_pics/20220527203986.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/galley_pics/20220527203986.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>
 </li>
 <li>
-<a href="/assets/images/gallery7.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/assets/images/gallery7.jpg">
+<a href="/public/galley_pics/20220527203781.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/galley_pics/20220527203781.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>
 </li>
 <li>
-<a href="/assets/images/gallery8.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/assets/images/gallery8.jpg">
+<a href="/public/galley_pics/20220527195358.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/galley_pics/20220527195358.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>
