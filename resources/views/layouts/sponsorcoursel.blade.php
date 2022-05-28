@@ -68,7 +68,6 @@
 </nav>
         @yield('data')
 
-		
 <div class="callout">
 	<div class="container">
 			<div class="row">

@@ -85,263 +85,132 @@
 <div class="row text-center">
 <div id="owl-demo" class="owl-carousel owl-theme">
           
+    
+    @foreach ($data as $item)       
 <div class="item">
 <div class="sponser-box">
-<img src="/assets/images/sponser.jpg" alt="Owl Image">
-<h4>Hi, I’m Ogwang</h4>
+<img src="{{'/public/sponsor_a_child/'.$item->image}}" alt="Owl Image">
+<h4>Hi Iam, {{$item->firstname}}</h4>
 <div class="spon-bdr clearfix">
 <div class="col-xs-6">Where I Live</div> 
-<div class="col-xs-6">Uganda</div>
+<div class="col-xs-6">{{$item->location}}</div>
 </div>
 <div class="spon-bdr clearfix">
 <div class="col-xs-6">My Age</div> 
-<div class="col-xs-6">7</div>
+<div class="col-xs-6">{{$item->age}}</div>
 </div>
 <div class="spon-bdr clearfix">
-<div class="col-xs-6">My Birthday</div> 
-<div class="col-xs-6">1/09/2009</div>
+<div class="col-xs-6">My Grade</div> 
+<div class="col-xs-6">{{$item->grade}}</div>
+</div>
+<div class="spon-bdr clearfix">
+<div class="col-xs-6">Support Needed</div> 
+<div class="col-xs-6">{{$item->supportcatogory}}</div>
 </div>
 <a href="sponsor" class="btn1">Sponsor me</a>
 </div>
 </div>
+@endforeach
 
-<div class="item">
-<div class="sponser-box">
-<img src="/assets/images/sponser.jpg" alt="Owl Image">
-<h4>Hi, I’m Ogwang</h4>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">Where I Live</div> 
-<div class="col-xs-6">Uganda</div>
-</div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Age</div> 
-<div class="col-xs-6">7</div>
-</div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Birthday</div> 
-<div class="col-xs-6">1/09/2009</div>
-</div>
-<a href="sponsor" class="btn1">Sponsor me</a>>
-</div>
-</div>
 
-<div class="item">
-<div class="sponser-box">
-<img src="/assets/images/sponser.jpg" alt="Owl Image">
-<h4>Hi, I’m Ogwang</h4>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">Where I Live</div> 
-<div class="col-xs-6">Uganda</div>
 </div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Age</div> 
-<div class="col-xs-6">7</div>
-</div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Birthday</div> 
-<div class="col-xs-6">1/09/2009</div>
-</div>
-<a href="sponsor" class="btn1">Sponsor me</a>>
-</div>
-</div>
-
-<div class="item">
-<div class="sponser-box">
-<img src="/assets/images/sponser.jpg" alt="Owl Image">
-<h4>Hi, I’m Ogwang</h4>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">Where I Live</div> 
-<div class="col-xs-6">Uganda</div>
-</div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Age</div> 
-<div class="col-xs-6">7</div>
-</div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Birthday</div> 
-<div class="col-xs-6">1/09/2009</div>
-</div>
-<a href="sponsor" class="btn1">Sponsor me</a>>
-</div>
-</div>
-
-<div class="item">
-<div class="sponser-box">
-<img src="/assets/images/sponser.jpg" alt="Owl Image">
-<h4>Hi, I’m Ogwang</h4>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">Where I Live</div> 
-<div class="col-xs-6">Uganda</div>
-</div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Age</div> 
-<div class="col-xs-6">7</div>
-</div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Birthday</div> 
-<div class="col-xs-6">1/09/2009</div>
-</div>
-<a href="sponsor" class="btn1">Sponsor me</a>>
-</div>
-</div>
-
-<div class="item">
-<div class="sponser-box">
-<img src="/assets/images/sponser.jpg" alt="Owl Image">
-<h4>Hi, I’m Ogwang</h4>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">Where I Live</div> 
-<div class="col-xs-6">Uganda</div>
-</div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Age</div> 
-<div class="col-xs-6">7</div>
-</div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Birthday</div> 
-<div class="col-xs-6">1/09/2009</div>
-</div>
-<a href="sponsor" class="btn1">Sponsor me</a>>
-</div>
-</div>
-
-<div class="item">
-<div class="sponser-box">
-<img src="/assets/images/sponser.jpg" alt="Owl Image">
-<h4>Hi, I’m Ogwang</h4>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">Where I Live</div> 
-<div class="col-xs-6">Uganda</div>
-</div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Age</div> 
-<div class="col-xs-6">7</div>
-</div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Birthday</div> 
-<div class="col-xs-6">1/09/2009</div>
-</div>
-<a href="sponsor" class="btn1">Sponsor me</a>>
-</div>
-</div>
-
-<div class="item">
-<div class="sponser-box">
-<img src="/assets/images/sponser.jpg" alt="Owl Image">
-<h4>Hi, I’m Ogwang</h4>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">Where I Live</div> 
-<div class="col-xs-6">Uganda</div>
-</div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Age</div> 
-<div class="col-xs-6">7</div>
-</div>
-<div class="spon-bdr clearfix">
-<div class="col-xs-6">My Birthday</div> 
-<div class="col-xs-6">1/09/2009</div>
-</div>
-<a href="sponsor" class="btn1">Sponsor me</a>>
-</div>
-</div>
- 
-</div>
-
 </div>
 </div>
 </section>
-
 <section id="activities-sec">
-<div class="container">
-<div class="row text-center">
-<h1>WHAT WE DO?</h1>
-<hr>
-<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
-<div class="text-left"> 
-<div class="col-md-4 clearfix top-off">
-<div class="grid-content-left"><i class="fa fa-heart"></i></div>
-<div class="grid-content-wrapper"><h4>Charity for Education</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis dignissim.</p>
-<a href="activities" title="" >Read More</a>
-</div>
-</div>
-<div class="col-md-4 clearfix top-off">
-<div class="grid-content-left"><i class="fa fa-cutlery"></i></div>
-<div class="grid-content-wrapper"><h4>Feed for Hungry Child</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis dignissim.</p>
-<a href="activities" title="" >Read More</a>
-</div>
-</div>
-<div class="col-md-4 clearfix top-off">
-<div class="grid-content-left"><i class="fa fa-home"></i></div>
-<div class="grid-content-wrapper"><h4>Home for Homeless</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis dignissim.</p>
-<a href="activities" title="" >Read More</a>
-</div>
-</div>
-<div class="col-md-4 clearfix top-off">
-<div class="grid-content-left"><i class="fa fa-tint"></i></div>
-<div class="grid-content-wrapper"><h4>Bringing Clean Water</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis dignissim.</p>
-<a href="activities" title="" >Read More</a>
-</div>
-</div>
-<div class="col-md-4 clearfix top-off">
-<div class="grid-content-left"><i class="fa fa-thumbs-up"></i></div>
-<div class="grid-content-wrapper"><h4>Help Little Hands</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis dignissim.</p>
-<a href="activities" title="" >Read More</a>
-</div>
-</div>
-<div class="col-md-4 clearfix top-off">
-<div class="grid-content-left"><i class="fa fa-money"></i></div>
-<div class="grid-content-wrapper"><h4>Donate for Children</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis dignissim.</p>
-<a href="activities" title="" >Read More</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+    <div class="container">
+    <div class="row text-center">
+    <h1>WHAT WE DO?</h1>
+    <hr>
+    <h5>To change Lives through providence of medical care to the vulnerable people in the community and also help orphaned and vulnerable children in spheres like education, child advocacy, providence of children’s needs and Empowering the Youths Towards goals of self-sustainability and Livelihood so as to sow for a better future.</h5>
+    <div class="text-left"> 
+    <div class="col-md-4 clearfix top-off">
+    <div class="grid-content-left"><i class="fa fa-heart"></i></div>
+    <div class="grid-content-wrapper"><h4>Charity for Education</h4><p>Education is the key to transforming the lives of poor children and adolescents. Through it, they can get bright futures with decent work, better health, and a good income. </p>
+    <a href="activities" title="" >Read More</a>
+    </div>
+    </div>
+    <div class="col-md-4 clearfix top-off">
+    <div class="grid-content-left"><i class="fa fa-cutlery"></i></div>
+    <div class="grid-content-wrapper"><h4>Feed for Hungry Child</h4><p>Hunger is a problem for school-going kids from vulnerable families and it hurts their progress in school.
+        So, we plan on providing them with a daily meal ranging from breakfast, lunch and this makes their life in school easier and better.
+        </p>
+    <a href="activities" title="" >Read More</a>
+    </div>
+    </div>
+    <div class="col-md-4 clearfix top-off">
+    <div class="grid-content-left"><i class="fa fa-home"></i></div>
+    <div class="grid-content-wrapper"><h4>Home for Homeless</h4><p>We have a plan of constructing four bed room houses containing the two rooms for the suffering male child, two rooms for females, and sparing room for the old. This would enable us supervise our chosen people in the community well. </p>
+    <a href="activities" title="" >Read More</a>
+    </div>
+    </div>
+    <div class="col-md-4 clearfix top-off">
+    <div class="grid-content-left"><i class="fa fa-tint"></i></div>
+    <div class="grid-content-wrapper"><h4>Bringing Clean Water</h4><p>We aim at providing communities in need with sustainable solutions to their water problems. Such solutions include providing rainwater harvesting systems, installing water pumps, rehabilitating damaged water source infrastructure and construction of boreholes .</p>
+    <a href="activities" title="" >Read More</a>
+    </div>
+    </div>
+    <div class="col-md-4 clearfix top-off">
+    <div class="grid-content-left"><i class="fa fa-thumbs-up"></i></div>
+    <div class="grid-content-wrapper"><h4>Help Little Hands</h4><p>We also plan of supporting the families of all children supported by the organization with some household items such as mosquito nets, toothpaste, and soap. This puts them in a better position to take their children to school and provide a conducive environment for children when they come back from school.</p>
+    <a href="activities" title="" >Read More</a>
+    </div>
+    </div>
+    <div class="col-md-4 clearfix top-off">
+    <div class="grid-content-left"><i class="fa fa-money"></i></div>
+    <div class="grid-content-wrapper"><h4>Donate for Children</h4><p>We hope to increase on the number of children supported by Ishak community organization but we always limited by the funding. We provide scholastic materials such as school uniforms, shoes, school bags, books, pens, pencils, sanitary pads, etc. to all the children supported by the organization.</p>
+    <a href="activities" title="" >Read More</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    
 
-<section id="video-sec">
-<div class="container">
-<div class="row text-center">
-<h1>How can you help?</h1>
-<hr>
-<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
-<div class="text-left"> 
-<div class="col-md-6 clearfix top-off">
-<video width="400" controls>
- <source src="/assets/images/mov_bbb.mp4" type="video/mp4">
-</video>
-</div>
-<div class="col-md-6 clearfix top-off">
-<div class="media">
-<div class="media-image">
-<img src="/assets/images/g1.png" class="attachment-full size-full" alt="g1">																							</div>
-<div class="media-text">
-<h5>BECOME A VOLUNTEER</h5>
-<p>Give us a brief description of the service that you are promoting.</p>
-</div>
-</div>
-<div class="media">
-<div class="media-image">
-<img src="/assets/images/g2.png" class="attachment-full size-full" alt="g1">																							</div>
-<div class="media-text">
-<h5>MAKE A GIFT</h5>
-<p>Give us a brief description of the service that you are promoting.</p>
-</div>
-</div>
-<div class="media">
-<div class="media-image">
-<img src="/assets/images/g1.png" class="attachment-full size-full" alt="g1">																							</div>
-<div class="media-text">
-<h5>GIVE A SCHOLASHIP</h5>
-<p>Give us a brief description of the service that you are promoting.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
+    <section id="video-sec">
+        <div class="container">
+        <div class="row text-center">
+        <h1>How can you help?</h1>
+        <hr>
+        <h5>Help us transform the society by attaining the goals of better health, happy childhood and self-sustainability.</h5>
+        <div class="text-left"> 
+        <div class="col-md-6 clearfix top-off">
+        <video width="400" controls>
+         <source src="/assets/images/mov_bbb.mp4" type="video/mp4">
+        </video>
+        </div>
+        <div class="col-md-6 clearfix top-off">
+        <div class="media">
+        <div class="media-image">
+        <img src="/assets/images/g1.png" class="attachment-full size-full" alt="g1">																							</div>
+        <div class="media-text">
+        <h5>BECOME A VOLUNTEER</h5>
+        <p>Becoming a volunteer by joining the Organisation membership</p>
+        </div>
+        </div>
+        <div class="media">
+        <div class="media-image">
+        <img src="/assets/images/g2.png" class="attachment-full size-full" alt="g1">																							</div>
+        <div class="media-text">
+        <h5>MAKE A GIFT</h5>
+        <p>Donate a gift the different projects and activties which are on going</p>
+        </div>
+        </div>
+        <div class="media">
+        <div class="media-image">
+        <img src="/assets/images/g1.png" class="attachment-full size-full" alt="g1">																							</div>
+        <div class="media-text">
+        <h5>GIVE A SCHOLASHIP</h5>
+        <p>Education is a basic need , we're in need of scholarship for the children were catering for.</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        
 
 
 <div class="callout">

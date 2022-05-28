@@ -9,7 +9,7 @@
                   <div class="card-body">
                     <h4 class="card-title">Projects information</h4>
                     <div class="table-responsive">
-                      <table class="table table-dark text-light table-hover table-striped">
+                      <table class="table table-dark text-light  0.-hover table-striped">
                         <thead class="table-primary ">
                           <tr>
                             <th>id</th>

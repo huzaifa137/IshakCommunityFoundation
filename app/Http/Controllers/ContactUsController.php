@@ -20,5 +20,6 @@ class ContactUsController extends Controller
      $contact->message = $request->input('message');
      $contact->save();
 
+     return redirect()->back()->with('success', 'The message has been submitted successfully !!!');
     }
 }

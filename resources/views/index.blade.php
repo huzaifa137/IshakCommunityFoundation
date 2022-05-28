@@ -14,7 +14,7 @@
             <!-- Item 1 -->
             <div class="item active slide1">
                         <h2 data-animation="animated bounceInDown"><span style="border-radius: 40px;">Give a little change a lot</span></h2>
-                        <h3 data-animation="animated bounceInDown" style="color: blue">
+                        <h3 data-animation="animated bounceInDown">
                             Hunger is a problem for school-going kids from vulnerable families and it hurts their progress in school.
                             So, we plan on providing them with a daily meal ranging from breakfast, lunch and this makes their life in school easier and better
                             </h3>
@@ -23,19 +23,19 @@
             <!-- Item 2 -->
             <div class="item slide2">
                         <h2 data-animation="animated bounceInDown"><span style="border-radius: 40px;">More charity More better life</span></h2>
-                        <h3 data-animation="animated bounceInDown" style="color:blue">We help poor families and children access medical care. This helps to reduce many preventable deaths in rural communities because poor families often suffer from easily preventable and treatable diseases. </h3>
+                        <h3 data-animation="animated bounceInDown">We help poor families and children access medical care. This helps to reduce many preventable deaths in rural communities because poor families often suffer from easily preventable and treatable diseases. </h3>
                         <h4 data-animation="animated bounceInUp"><a href="aboutus">READ MORE</a></h4>             
              </div>
             <!-- Item 3 -->
             <div class="item slide3">
                         <h2 data-animation="animated bounceInDown"><span style="border-radius: 40px;">support the impoverished</span></h2>
-                        <h3 data-animation="animated bounceInDown" style="color: blue">We help pregnant women, nursing mothers, and vulnerable children get good nutrition and our nutrition programs focus on poor families and children. Malnutrition leads to stunted growth, wasting, or being overweight, in children which in turn damages a child’s learning and cognition. Malnutrition accounts for almost half of the deaths of children below 5 years.</h3>
+                        <h3 data-animation="animated bounceInDown">We help pregnant women, nursing mothers, and vulnerable children get good nutrition and our nutrition programs focus on poor families and children. Malnutrition leads to stunted growth, wasting, or being overweight, in children which in turn damages a child’s learning and cognition. Malnutrition accounts for almost half of the deaths of children below 5 years.</h3>
                         <h4 data-animation="animated bounceInUp"><a href="aboutus">READ MORE</a></h4>             
              </div>
             <!-- Item 4 -->
             <div class="item slide4">
                         <h2 data-animation="animated bounceInDown"><span style="border-radius: 40px;">Raise Up for the needy</span></h2>
-                        <h3 data-animation="animated bounceInDown" style="color: blue">Buying food is not an option for poor households: they do not have an income. They are illiterate, uninformed, and unskilled. So, they cannot find decent jobs and employment to earn an income.Help them out by donating to us.</h3>
+                        <h3 data-animation="animated bounceInDown">Buying food is not an option for poor households: they do not have an income. They are illiterate, uninformed, and unskilled. So, they cannot find decent jobs and employment to earn an income.Help them out by donating to us.</h3>
                         <h4 data-animation="animated bounceInUp"><a href="aboutus">READ MORE</a></h4>             
              </div>
             <!-- End Item 4 -->

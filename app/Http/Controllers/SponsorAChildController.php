@@ -84,6 +84,12 @@ class SponsorAChildController extends Controller
          }
         $save->save();
         return redirect('Admin/information');
+    }
 
+    public function displayinformation()
+    {
+        $data = sponsor_a_child::all();
+
+        return view('sponsor-a-child')->with('data',$data);
     }
 }

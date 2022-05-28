@@ -23,16 +23,15 @@ use Illuminate\Support\Facades\Route;
 
 //Website routes
 Route::view('/', 'index');
-// Route::view('temp', 'temp');
 Route::view('donate', 'donate');
 Route::view('sponsor', 'sponsor');
 Route::view('aboutus', 'aboutus');
-// Route::view('gallery', 'gallery');
-ROute::get('gallery',[GalleryController::class,'displayinformation']);
 Route::view('contact', 'contact');
-Route::get('projects',[ProjectController::class,'projects']);
-Route::get('activities',[ActivitieController::class,'displayinformation']);
 Route::view('sponsor-a-child', 'sponsor-a-child');
+Route::get('sponsor-a-child',[SponsorAChildController::class,'displayinformation']);
+Route::get('projects',[ProjectController::class,'projects']);
+ROute::get('gallery',[GalleryController::class,'displayinformation']);
+Route::get('activities',[ActivitieController::class,'displayinformation']);
 
     //Admin routes
 Route::group(['prefix'=>'Admin','middleware'=>'auth'],function () {

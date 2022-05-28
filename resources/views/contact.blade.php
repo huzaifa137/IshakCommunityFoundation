@@ -1,5 +1,6 @@
 @extends('layouts.apps')
 @section('content')
+@include('includes.messages')
 <section id="inner-banner">
 <div class="overlay">
 <div class="container">
@@ -13,7 +14,7 @@
 </section>
 
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12789754.135904364!2d-103.6801893!3d38.4992109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1502302011686" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63835.16296130462!2d33.14702717595798!3d0.44555292551716863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177e7b862c391f47%3A0x300fe90f956a9f4a!2sJinja%2C%20Uganda!5e0!3m2!1sen!2sin!4v1653720352336!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 <section id="about-sec">
@@ -38,8 +39,8 @@ Phone 02: +1-310-341-387</p>
 </div>
 <h3>ADDRESS</h3>
 <div class="fancy-box-content">
-<p>3104 Doctors Drive, Los Angeles,<br>
-California, United States</p>
+<p>Near , Bujagali<br>
+Jinja, Uganda</p>
 </div>
 </div>
 </div>
