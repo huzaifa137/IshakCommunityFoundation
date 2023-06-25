@@ -101,7 +101,7 @@
 <h5>The organisation is made of the board of trustees and is sub-divided into several divisions for transparent flow and flourishing of the work were doing.</h5>
 <div class="member col-xs-6 col-md-3">
 <div class="inner">
-<div class="avatar-inner"><img src="/assets/images/team1.jpg"></div>
+<div class="avatar-inner"><img src="/assets/images/team1.jpeg"></div>
 <div class="info"><div class="name"><a href="#"> Michel Black </a></div><div class="regency">Volunteer</div></div>
 </div>
 </div>

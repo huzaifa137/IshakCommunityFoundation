@@ -37,7 +37,7 @@ class GalleryController extends Controller
         $results = gallery::all();
         $data =  project::all();
         $info = activitie::all();
-        $metadata = sponsor_a_child::all();
+        return $metadata = sponsor_a_child::all();
 
         return view('dashboard.information')->with('results',$results)->with('data',$data)
         ->with('info',$info)->with('metadata',$metadata);
