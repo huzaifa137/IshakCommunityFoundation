@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Corona Admin</title>
+    <title>IshakCommunityOrganisation</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="/dash/assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="/dash/assets/vendors/css/vendor.bundle.base.css">
@@ -111,7 +111,7 @@
             <ul class="navbar-nav w-100">
               <li class="nav-item w-100">
                 <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
-                  <input type="text" class="form-control" placeholder="Search products">
+                  
                 </form>
               </li>
             </ul>

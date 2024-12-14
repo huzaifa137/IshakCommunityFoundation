@@ -18,13 +18,21 @@
   <ul class="clearfix">
     @foreach ($data as $item)
     <li>
-     <a href="{{url('public/galley_pics/'.$item->image)}}" class="swipebox" title="{{$item->caption}}">
-     <div class="image"><img src="{{url('public/galley_pics/'.$item->image)}}">
+     <a href="{{url('/public/public/galley_pics/'.$item->image)}}" class="swipebox" title="{{$item->caption}}">
+     <div class="image"><img src="{{url('/public/public/galley_pics/'.$item->image)}}">
      <div class="overlay"><i class="fa fa-search-plus"></i></div>
      </div></a>
      </li>
   @endforeach
      </ul>
+     <br> <br> 
+      {{$data->links()}}
+
+     <style>
+      .w-5{
+          display: none;
+      }
+      
      </div>
      </div>
      </section>

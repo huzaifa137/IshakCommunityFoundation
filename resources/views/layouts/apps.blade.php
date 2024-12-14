@@ -8,7 +8,7 @@
 <meta name="keywords" content="">
 <meta name="robots" content="index,follow">
 
-<title>{{config('app.name','IshakCommunityFoundation')}}</title>
+<title>{{ config('app.name', 'IshakCommunityOrganisation') }}</title>
 
 <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
 <link href="/assets/css/animate.css" rel="stylesheet">
@@ -25,16 +25,15 @@
 <div class="container">
 <div class="row"> 
 <div class="bar-phone">
-<i class="fa fa-phone"></i> <span>Call Us :</span> <strong>+1-310-341-3870</strong>
+<i class="fa fa-phone"></i> <span class="p-dark">Call Us :</span> <span class="p-dark"><strong>+91 9904518814</strong></span>
 </div>
 <div class="bar-mail">
-<i class="fa fa-envelope"></i> <span>Mail Us :</span> <strong>info@charityhope.com</strong>
+<i class="fa fa-envelope"></i> <span class="p-dark">Mail Us :</span><span class="p-dark"> <strong>info@ishakfoundation.org</strong></span>
 </div>
 <div class="header-social">
-<a class="facebook" href="#" title="facebook" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i>  </a>
-<a class="twitter" href="#" title="twitter" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i>  </a>
-<a class="linkedin" href="#" title="linkedin" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i>  </a>
-<a class="google" href="#" title="google-plus" target="_blank" rel="nofollow"><i class="fa fa-google-plus"></i>  </a>
+<a class="facebook" href="https://www.facebook.com/ISHAK-community-foundation-108375631805108" title="facebook" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i>  </a>
+<a class="twitter" href="https://twitter.com/isaac_isiko" title="twitter" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i>  </a>
+<a class="linkedin" href="http://www.linkedin.com/in/ishakfoundation-172905190" title="linkedin" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i>  </a>
 <a class="youtube" href="#" title="youtube-play" target="_blank" rel="nofollow"><i class="fa fa-youtube-play"></i>  </a>
 </div>
 </div>
@@ -96,10 +95,10 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="footer-section">
-						<h4 class="footer-section-title">About Charity</h4><!-- /.footer-section-title -->
+						<h4 class="footer-section-title">About Ishak Community Organisation</h4><!-- /.footer-section-title -->
 						
 						<div class="footer-section-body">
-							<p>Bringing a smile on the face of every child and human in the world is our passion, we have done this through providing educational services to the orphans, we aim at providing healthcare services to the children, elderly and un abled people such as pregnant mothers. We also provide basic needs like clothes, books, water, food etc. to the poor, this has brought a smile to people in the community.</p>
+							<p style="color: white">Bringing a smile on the face of every child and human in the world is our passion, we have done this through providing educational services to the orphans, we aim at providing healthcare services to the children, elderly and un abled people such as pregnant mothers. We also provide basic needs like clothes, books, water, food etc. to the poor, this has brought a smile to people in the community.</p>
 						</div><!-- /.footer-section-body -->
 					</div><!-- /.footer-section -->
 				</div><!-- /.columns large-3 medium-12 -->
@@ -111,26 +110,26 @@
 						<div class="footer-section-body">
 							<ul class="list-links">
 								<li>
-									<a href="/">Home</a>
+									<a class="link-color" href="/">Home</a>
 								</li>
 								
 								<li>
-									<a href="aboutus">About Us</a>
+									<a class="link-color" href="aboutus">About Us</a>
 								</li>
 								
 								<li>
-									<a href="activities">Activities</a>
+									<a class="link-color" href="activities">Activities</a>
 								</li>
                                 <li>
-									<a href="projects">Projects</a>
+									<a class="link-color" href="projects">Projects</a>
 								</li>
 								
 								<li>
-									<a href="gallery">Gallery</a>
+									<a class="link-color" href="gallery">Gallery</a>
 								</li>
 								
 								<li>
-									<a href="contact">Contact Us</a>
+									<a class="link-color" href="contact">Contact Us</a>
 								</li>
 								
 							</ul><!-- /.list-links -->
@@ -145,16 +144,16 @@
 					<div class="footer-section">
 						<h4 class="footer-section-title">Contact Us</h4><!-- /.footer-section-title -->
 						
-						<div class="footer-section-body">
-							<p><b>Address:</b> near Bujagali in Jinja, Uganda</p>
+						<div class="footer-section-body" style="color:whitesmoke;">
+							<p><b>Address:</b> buwenda village,Jinja city, Uganda</p>
 
-							<div class="footer-contacts">
+							<div class="footer-contacts" style="color:whitesmoke;>
 								<p>
 									<b>
 										<i class="fa fa-phone"></i> Phone:
 									</b>
 
-									+1-310-341-3870
+									 +25703691417/+919904518814/+82 10-6443-8212
 								</p>
 								
 								<p>
@@ -162,7 +161,7 @@
 										<i class="fa fa-envelope-o"></i> Email:
 									</b>
 
-									info@charityhope.com
+									 info@ishakfoundation.org
 								</p>
 							</div><!-- /.footer-contacts -->
 						</div><!-- /.footer-section-body -->

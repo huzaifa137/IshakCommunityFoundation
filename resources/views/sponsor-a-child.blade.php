@@ -8,7 +8,7 @@
 <meta name="keywords" content="">
 <meta name="robots" content="index,follow">
 
-<title>Charity Hope</title>
+<title>IshakCommunityOrganisation</title>
 
 <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
 <link href="/assets/css/animate.css" rel="stylesheet">
@@ -26,10 +26,10 @@
 <div class="container">
 <div class="row"> 
 <div class="bar-phone">
-<i class="fa fa-phone"></i> <span>Call Us :</span> <strong>+1-310-341-3870</strong>
+<span class="p-dark">Call Us :</span> <span class="p-dark"><strong>+91 9904518814</strong></span>
 </div>
 <div class="bar-mail">
-<i class="fa fa-envelope"></i> <span>Mail Us :</span> <strong>info@charityhope.com</strong>
+<i class="fa fa-envelope"></i> <span class="p-dark">Mail Us :</span><span class="p-dark"> <strong>info@ishakfoundation.org</strong></span>
 </div>
 <div class="header-social">
 <a class="facebook" href="#" title="facebook" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i>  </a>
@@ -89,7 +89,7 @@
     @foreach ($data as $item)       
 <div class="item">
 <div class="sponser-box">
-<img src="{{'/public/sponsor_a_child/'.$item->image}}" alt="Owl Image">
+<img src="{{'/public/public/sponsor_a_child/'.$item->image}}" alt="Owl Image">
 <h4>Hi Iam, {{$item->firstname}}</h4>
 <div class="spon-bdr clearfix">
 <div class="col-xs-6">Where I Live</div> 
@@ -107,7 +107,7 @@
 <div class="col-xs-6">Support Needed</div> 
 <div class="col-xs-6">{{$item->supportcatogory}}</div>
 </div>
-<a href="sponsor" class="btn1">Sponsor me</a>
+<a href="donate" class="btn1">Sponsor me</a>
 </div>
 </div>
 @endforeach
@@ -186,7 +186,7 @@
         <img src="/assets/images/g1.png" class="attachment-full size-full" alt="g1">																							</div>
         <div class="media-text">
         <h5>BECOME A VOLUNTEER</h5>
-        <p>Becoming a volunteer by joining the Organisation membership</p>
+        <p class="p-dark class="link-color"">Becoming a volunteer by joining the Organisation membership</p>
         </div>
         </div>
         <div class="media">
@@ -194,7 +194,7 @@
         <img src="/assets/images/g2.png" class="attachment-full size-full" alt="g1">																							</div>
         <div class="media-text">
         <h5>MAKE A GIFT</h5>
-        <p>Donate a gift the different projects and activties which are on going</p>
+        <p class="p-dark class="link-color"">Donate a gift the different projects and activties which are on going</p>
         </div>
         </div>
         <div class="media">
@@ -202,7 +202,7 @@
         <img src="/assets/images/g1.png" class="attachment-full size-full" alt="g1">																							</div>
         <div class="media-text">
         <h5>GIVE A SCHOLASHIP</h5>
-        <p>Education is a basic need , we're in need of scholarship for the children were catering for.</p>
+        <p class="p-dark class="link-color"">Education is a basic need , we're in need of scholarship for the children were catering for.</p>
         </div>
         </div>
         </div>
@@ -236,114 +236,87 @@
     </div>
     
     <footer class="footer">
-            <div class="footer-body">
-                    <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="footer-section">
-                            <h4 class="footer-section-title">About Charity</h4><!-- /.footer-section-title -->
-                            
-                            <div class="footer-section-body">
-                                <p>Charity vitae diam pulvinar, tempus dia aliquam tellus. Quisque mattis odio eu placerat luctus. Vivamus magna elit, ultrices non lacinia vel, tempor vitae tell Fusce sit amet sem sit amet.</p>
-                            </div><!-- /.footer-section-body -->
-                        </div><!-- /.footer-section -->
-                    </div><!-- /.columns large-3 medium-12 -->
+        <div class="footer-body">
+            <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer-section">
+                    <h4 class="footer-section-title">About Ishak Community Organisation</h4><!-- /.footer-section-title -->
                     
-                    <div class="col-md-3">
-                        <div class="footer-section">
-                            <h4 class="footer-section-title">Quick Links</h4><!-- /.footer-section-title -->
-                            
-                            <div class="footer-section-body">
-                                <ul class="list-links">
-                                    <li>
-                                        <a href="index">Home</a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="about-us">About Us</a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="activities">Activities</a>
-                                    </li>
-                                    <li>
-                                        <a href="projects">Projects</a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="gallery">Gallery</a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="contact">Contact Us</a>
-                                    </li>
-                                    
-                                </ul><!-- /.list-links -->
-    
-                            </div><!-- /.footer-section-body -->
-                        </div><!-- /.footer-section -->
-                    </div><!-- /.columns large-3 medium-12 -->
+                    <div class="footer-section-body">
+                        <p style="color: white">Bringing a smile on the face of every child and human in the world is our passion, we have done this through providing educational services to the orphans, we aim at providing healthcare services to the children, elderly and un abled people such as pregnant mothers. We also provide basic needs like clothes, books, water, food etc. to the poor, this has brought a smile to people in the community.</p>
+                    </div><!-- /.footer-section-body -->
+                </div><!-- /.footer-section -->
+            </div><!-- /.columns large-3 medium-12 -->
+            
+            <div class="col-md-4">
+                <div class="footer-section">
+                    <h4 class="footer-section-title">Quick Links</h4><!-- /.footer-section-title -->
                     
-                    <div class="col-md-3">
-                        <div class="footer-section">
-                            <h4 class="footer-section-title">Newsletter Signup</h4><!-- /.footer-section-title -->
+                    <div class="footer-section-body">
+                        <ul class="list-links">
+                            <li>
+                                <a class="link-color" href="/">Home</a>
+                            </li>
                             
-                            <div class="footer-section-body">
-                                <p>Select your newsletters, enter your email address, and click "Subscribe"</p>
-    
-                                <div class="subscribe">
-                                    <form action="?" method="post">
-                                        <input type="submit" value="Go" class="subscribe-btn">
-                                        
-                                        <div class="subscribe-inner">
-                                            <input type="email" id="mail" name="mail" value="" placeholder="Email Address" class="subscribe-field">
-                                        </div><!-- /.subscribe-inner -->
-                                    </form>
-                                </div><!-- /.subscribe -->
-                            </div><!-- /.footer-section-body -->
-                        </div><!-- /.footer-section -->
-                    </div><!-- /.columns large-3 medium-12 -->
+                            <li>
+                                <a class="link-color" href="aboutus">About Us</a>
+                            </li>
+                            
+                            <li>
+                                <a class="link-color" href="activities">Activities</a>
+                            </li>
+                            <li>
+                                <a class="link-color" href="projects">Projects</a>
+                            </li>
+                            
+                            <li>
+                                <a class="link-color" href="gallery">Gallery</a>
+                            </li>
+                            
+                            <li>
+                                <a class="link-color" href="contact">Contact Us</a>
+                            </li>
+                            
+                        </ul><!-- /.list-links -->
+
+                    </div><!-- /.footer-section-body -->
+                </div><!-- /.footer-section -->
+            </div><!-- /.columns large-3 medium-12 -->
+            
+            
+            
+            <div class="col-md-3">
+                <div class="footer-section">
+                    <h4 class="footer-section-title">Contact Us</h4><!-- /.footer-section-title -->
                     
-                    <div class="col-md-3">
-                        <div class="footer-section">
-                            <h4 class="footer-section-title">Contact Us</h4><!-- /.footer-section-title -->
+                    <div class="footer-section-body" style="color:whitesmoke;">
+                        <p ><b>Address:</b> near Bujagali in Jinja, Uganda</p>
+
+                        <div class="footer-contacts" style="color:whitesmoke;">
+                            <p>
+                                <b>
+                                    <i class="fa fa-phone"></i> Phone:
+                                </b>
+
+                                +91 9904518814
+                            </p>
                             
-                            <div class="footer-section-body">
-                                <p><b>Address:</b> 3104 Doctors Drive, Los Angeles, California, United States</p>
-    
-                                <div class="footer-contacts">
-                                    <p>
-                                        <b>
-                                            <i class="fa fa-phone"></i> Phone:
-                                        </b>
-    
-                                        +1-310-341-3870
-                                    </p>
-                                    
-                                    <p>
-                                        <b>
-                                            <i class="fa fa-envelope-o"></i> Email:
-                                        </b>
-    
-                                        info@charityhope.com
-                                    </p>
-                                </div><!-- /.footer-contacts -->
-                            </div><!-- /.footer-section-body -->
-                        </div><!-- /.footer-section -->
-                    </div><!-- /.columns large-3 medium-12 -->
-                </div><!-- /.row -->
-            </div>
-            </div><!-- /.footer-body -->
-    
-            <div class="bwt-footer-copyright">
-    <div class="container">
-    <div class="row">
-    <div class="col-md-6 copyright">
-    <div class="left-text">Copyright &copy; Charity Hope 2017. All Rights Reserved</div>
+                            <p>
+                                <b>
+                                    <i class="fa fa-envelope-o" ></i> Email:
+                                </b>
+
+                                isaacisiko12@gmail.com
+                            </p>
+                        </div><!-- /.footer-contacts -->
+                    </div><!-- /.footer-section-body -->
+                </div><!-- /.footer-section -->
+            </div><!-- /.columns large-3 medium-12 -->
+        </div><!-- /.row -->
     </div>
-            </div>
-            </div>
-            </div>
+    </div><!-- /.footer-body -->
+    
         </footer>
     
     <script type="text/javascript" src="/assets/js/jquery.min.js"></script>

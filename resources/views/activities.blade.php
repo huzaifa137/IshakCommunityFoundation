@@ -20,7 +20,7 @@
         
 <div class="act-box clearfix">
 <div class="col-md-6">
-<div class="image"><img src="{{url('public/activity_pics/'.$item->image)}}"></div>
+<div class="image"><img src="{{url('/public/public/activity_pics/'.$item->image)}}"></div>
 </div>
 <div class="col-md-6">
 <div class="act-pad">

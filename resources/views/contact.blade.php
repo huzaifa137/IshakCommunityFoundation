@@ -27,8 +27,11 @@
 </div>
 <h3>PHONE</h3>
 <div class="fancy-box-content">
-<p>Phone 01: +1-310-341-3870<br>
-Phone 02: +1-310-341-387</p>
+    
+<p class="p-dark"> Phone 01: +25703691417 <br>
+Phone 02: +919904518814 <br>
+Phone 03: +82 10-6443-8212</p>
+
 </div>
 </div>
 </div>
@@ -39,8 +42,9 @@ Phone 02: +1-310-341-387</p>
 </div>
 <h3>ADDRESS</h3>
 <div class="fancy-box-content">
-<p>Near , Bujagali<br>
-Jinja, Uganda</p>
+<p> buwenda village,<br>
+Jinja, City</p>
+<p>Uganda</p>
 </div>
 </div>
 </div>
@@ -51,8 +55,8 @@ Jinja, Uganda</p>
 </div>
 <h3>EMAIL</h3>
 <div class="fancy-box-content">
-<p>info@charityhope.com<br>
-help@charityhope.com</p>
+<p> info@ishakfoundation.org<br>
+ info@ishakfoundation.org</p> <br>
 </div>
 </div>
 </div>

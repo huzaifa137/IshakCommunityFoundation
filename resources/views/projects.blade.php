@@ -19,11 +19,11 @@
 
     @foreach ($data as $item)
     <div class="col-sm-6 col-md-4 clearfix top-off">
-      <div class="grid-image"><img src="{{ url('public/Image/'.$item->image) }}"></div>
+      <div class="grid-image"><img src="{{ url('/public/public/Image/'.$item->image) }}"></div>
       <div class="post-content">
       <h3>{{$item->simple_desc}}</h3>
       <hr>
-      <p>{{$item->detailed_desc}}</p>
+      <p class="p-dark">{{$item->detailed_desc}}</p>
       <a href="donate">Donate Now</a>
       </div>
       </div>        

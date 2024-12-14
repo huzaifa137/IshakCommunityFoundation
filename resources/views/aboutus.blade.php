@@ -33,7 +33,7 @@
   <span style="color:red">To change Lives through providence of medical care to the vulnerable people in the community and also help orphaned and vulnerable children in spheres like education, child advocacy, providence of children’s needs and Empowering the Youths Towards goals of self-sustainability and Livelihood so as to sow for a better future.</span>
   <h4>VISION</h4>
   <span style="color:red">To transform the society to goals of better health, happy childhood and self-sustainability.</span>
-  <p>Ishak community organization is a fully registered community-based organization currently operating in eastern Uganda majorly jinja district and the nearby districts of Iganga,Namutumba and Kamuli .
+  <p class="p-dark">Ishak community organization is a fully registered community-based organization currently operating in eastern Uganda majorly jinja district and the nearby districts of Iganga,Namutumba and Kamuli .
     We offer education support, medical care, housing, health education, feeding to disadvantaged children in the society such as the orphans, street children, abandoned children and children from extremely poor backgrounds far. The organization so far has more than 10 children who have been taken back to school by the little contributions from the team members and a few volunteers.
     we ensure good health and good sanitation in the community by providing health education, organizing health camps with in communities, education the girl child about menstrual health and hygiene and providing sanitary towels. We educate children in schools about the transmission and prevention of sexually transmitted diseases such as HIV/AIDS, fighting teenage pregnancies and early marriages and reduction on the rate of school dropout among the children.
     We also aim at improving on every one’s welfare by proving food, offering nutritional education and offering food security education among the community members on the different ways to improve on food production within the communities and combat hunger which is the cause of most of the African health problems such a malnutrition.
@@ -98,32 +98,32 @@
 <div class="row text-center">
 <h1>MEET OUR TEAM</h1>
 <hr>
-<h5>The organisation is made of the board of trustees and is sub-divided into several divisions for transparent flow and flourishing of the work were doing.</h5>
+<h5>We have a well-established and organized team of professionals and humanitarian people with experience in handling different types of people. The team always reach out to the people and children to check on sanitation. General cleaning and providing basic requirements to young ones.</h5>
 <div class="member col-xs-6 col-md-3">
 <div class="inner">
 <div class="avatar-inner"><img src="/assets/images/team1.jpeg"></div>
-<div class="info"><div class="name"><a href="#"> Michel Black </a></div><div class="regency">Volunteer</div></div>
-</div>
-</div>
-
-<div class="member col-xs-6 col-md-3">
-<div class="inner">
-<div class="avatar-inner"><img src="/assets/images/team2.jpg"></div>
-<div class="info"><div class="name"><a href="#"> Juliana Moor </a></div><div class="regency">Volunteer</div></div>
+<div class="info"><div class="name"><a href="#"> Isiko Isaac </a></div><div class="regency">Founder & team leader</div></div>
 </div>
 </div>
 
 <div class="member col-xs-6 col-md-3">
 <div class="inner">
 <div class="avatar-inner"><img src="/assets/images/team3.jpg"></div>
-<div class="info"><div class="name"><a href="#"> Andre Russel</a></div><div class="regency">Volunteer</div></div>
+<div class="info"><div class="name"><a href="#">Mande Rogers</a></div><div class="regency">Project coordinator</div></div>
 </div>
 </div>
 
 <div class="member col-xs-6 col-md-3">
 <div class="inner">
 <div class="avatar-inner"><img src="/assets/images/team4.jpg"></div>
-<div class="info"><div class="name"><a href="#"> Amily James</a></div><div class="regency">Volunteer</div></div>
+<div class="info"><div class="name"><a href="#"> Nakyobe Ruth Joy</a></div><div class="regency">Volunteer</div></div>
+</div>
+</div>
+
+<div class="member col-xs-6 col-md-3">
+<div class="inner">
+<div class="avatar-inner"><img src="/assets/images/team2.jpg"></div>
+<div class="info"><div class="name"><a href="#">Bukenya Huzaifa </a></div><div class="regency">Volunteer</div></div>
 </div>
 </div>
 

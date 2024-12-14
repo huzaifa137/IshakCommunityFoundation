@@ -7,6 +7,7 @@ use App\Models\project;
 use App\Models\activitie;
 use App\Models\sponsor_a_child;
 use Illuminate\Support\Facades\Redirect;
+use DB;
 
 class GalleryController extends Controller
 {
@@ -37,7 +38,11 @@ class GalleryController extends Controller
         $results = gallery::all();
         $data =  project::all();
         $info = activitie::all();
-        return $metadata = sponsor_a_child::all();
+        $metadata = sponsor_a_child::all();
+        
+        $metadata = DB::table('users')->orderBy('id', 'desc')->get();
+                
+                
 
         return view('dashboard.information')->with('results',$results)->with('data',$data)
         ->with('info',$info)->with('metadata',$metadata);
@@ -80,7 +85,8 @@ class GalleryController extends Controller
 
     public function displayinformation()
     {
-        $data = gallery::all();
+        
+        $data = DB::table('gallery')->orderBy('id', 'desc')->paginate(16);
         
         return view('gallery')->with('data',$data);
     }

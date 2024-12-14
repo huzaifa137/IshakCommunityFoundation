@@ -54,12 +54,12 @@
 <section id="about-sec">
 <div class="container">
 <div class="row text-center">
-<h1>About Ishak Community Organisation</h1>
+<h1>About Ishak Community Foundation</h1>
 <hr>
 <h5>We are charitable non-profit organization</h5>
-<p>Bringing a smile on the face of every child and human in the world is our passion, we have done this through providing educational services to the orphans, we aim at providing healthcare services to the children, elderly and un abled people such as pregnant mothers. We also provide basic needs like clothes, books, water, food etc. to the poor, this has brought a smile to people in the community.</p>
-<p>Ishak community foundation was founded by Dr ISIKO ISAAC in 2020 though was fully registered as a community-based organization in 2021. This was in response to the suffering of children in the communities of Jinja district of Eastern Uganda. Where ISIKO ISAAC grew up and studies from. Many children were malnourished with no access to medical services, many families were hungry, many school-aged children were out of school, and many youths were unemployed.</p>
-<p>Dr.ISIKO ISAAC was touched by the kind of suffering the children in his community pass through daily and he  decided to join hands with few of community volunteers to help the poorest and the most vulnerable of them. This is how Ishak community foundation was started.
+<p class="p-dark">Bringing a smile on the face of every child and human in the world is our passion, we have done this through providing educational services to the orphans, we aim at providing healthcare services to the children, elderly and un abled people such as pregnant mothers. We also provide basic needs like clothes, books, water, food etc. to the poor, this has brought a smile to people in the community.</p>
+<p class="p-dark">Ishak community foundation was founded by Dr ISIKO ISAAC in 2020 though was fully registered as a community-based organization in 2021. This was in response to the suffering of children in the communities of Jinja district of Eastern Uganda. Where ISIKO ISAAC grew up and studies from. Many children were malnourished with no access to medical services, many families were hungry, many school-aged children were out of school, and many youths were unemployed.</p>
+<p class="p-dark">Dr.ISIKO ISAAC was touched by the kind of suffering the children in his community pass through daily and he  decided to join hands with few of community volunteers to help the poorest and the most vulnerable of them. This is how Ishak community foundation was started.
     <br/> The organization started operation in 1 district in Eastern Uganda i.e. Jinja district but has since then expanded to 2 more districts.
     </p>
     <p>Currently, all the support for our children is got from membership subscription fee and community volunteers. We welcome all kinds of donations and grants from individuals and organizations willing to change the lives of the hopeless children within the community. We are also open to any partnership with any organization such humanitarian, child advocacy and any other non-profit organizations.</p>
@@ -172,32 +172,32 @@
 <div class="row text-center">
 <h1>OUR PROJECTS</h1>
 <hr>
-<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+<h5>Join us to improve lives of those in need by giving us a supporting hand in the projects going on.</h5>
 <div class="text-center"> 
 <div class="col-md-4 clearfix top-off">
-<div class="grid-image"><img src="/assets/images/test1.jpg"></div>
+<div class="grid-image"><img src="/assets/images/test11.jpg"></div>
 <div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
+<h3>HOUSING</h3>
 <hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Setting up a well-established home for homeless children is one of our projects we are going to work on in long run.</p>
 <a href="projects" title="" >View Project</a>
 </div>
 </div>
 <div class="col-md-4 clearfix top-off">
 <div class="grid-image"><img src="/assets/images/test2.jpg"></div>
 <div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
+<h3>Clean Water Initiative</h3>
 <hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>We aim at providing communities in need with sustainable solutions to their water problems. Such solutions include providing rainwater harvesting systems, installing water pumps, rehabilitating damaged water source infrastructure and construction of boreholes .</p>
 <a href="projects" title="" >View Project</a>
 </div>
 </div>
 <div class="col-md-4 clearfix top-off">
-<div class="grid-image"><img src="/assets/images/test3.jpg"></div>
+<div class="grid-image"><img src="/assets/images/IMG-20230110-WA0042.jpg"></div>
 <div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
+<h3>MEDICAL CARE</h3>
 <hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>We help poor families and children access medical care. This helps to reduce many preventable deaths in rural communities because poor families often suffer from easily preventable and treatable diseases. </p>
 <a href="projects" title="" >View Project</a>
 </div>
 </div>
@@ -215,58 +215,58 @@
 <ul class="clearfix">
 
 <li>
-<a href="/public/galley_pics/20220527104173.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/public/galley_pics/20220527104173.jpg">
+<a href="/public/public/galley_pics/20220527104173.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/public/galley_pics/20220527104173.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div></a>
 </li>
 <li>
-<a href="/public/galley_pics/20220527181410.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/public/galley_pics/20220527181410.jpg">
+<a href="/public/public/galley_pics/20220527181410.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/public/galley_pics/20220527181410.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>
 </li>
 
 <li>
-<a href="/public/galley_pics/20220527182059.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/public/galley_pics/20220527182059.jpg">
+<a href="/public/public/galley_pics/20220527182059.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/public/galley_pics/20220527182059.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>
 </li>
 
 <li>
-<a href="/public/galley_pics/20220527195862.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/public/galley_pics/20220527195862.jpg">
+<a href="/public/public/galley_pics/20220527195862.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/public/galley_pics/20220527195862.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>
 </li>
 <li>
-<a href="/public/galley_pics/20220527182480.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/public/galley_pics/20220527182480.jpg">
+<a href="/public/public/galley_pics/20220527182480.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/public/galley_pics/20220527182480.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>
 </li>
 <li>
-<a href="/public/galley_pics/20220527203986.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/public/galley_pics/20220527203986.jpg">
+<a href="/public/public/galley_pics/20220527203986.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/public/galley_pics/20220527203986.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>
 </li>
 <li>
-<a href="/public/galley_pics/20220527203781.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/public/galley_pics/20220527203781.jpg">
+<a href="/public/public/galley_pics/20220527203781.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/public/galley_pics/20220527203781.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>
 </li>
 <li>
-<a href="/public/galley_pics/20220527195358.jpg" class="swipebox" title="My Caption">
-<div class="image"><img src="/public/galley_pics/20220527195358.jpg">
+<a href="/public/public/galley_pics/20220527195358.jpg" class="swipebox" title="My Caption">
+<div class="image"><img src="/public/public/galley_pics/20220527195358.jpg">
 <div class="overlay"><i class="fa fa-search-plus"></i></div>
 </div>
 </a>

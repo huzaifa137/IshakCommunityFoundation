@@ -7,7 +7,7 @@
 <meta name="keywords" content="">
 <meta name="robots" content="index,follow">
 
-<title>Charity Hope</title>
+<title>IshakCommunityOrganisation</title>
 
 <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
 <link href="/assets/css/animate.css" rel="stylesheet">
